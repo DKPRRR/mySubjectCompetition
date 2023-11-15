@@ -1,0 +1,755 @@
+
+
+Clock Region s_0_l
+ |    Bank 0: Net lsm_top/div40/clk_syn_1: 22(22)  out of 22(22)
+ |    Bank 1: Net ad_top/u_AD7266/sys_clk: 1(1)  out of 2(2)
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_r
+ |    Bank 0: Net uart_top/UART/clk_syn_1: 22(22)  out of 41(41)
+ |    Bank 1: Net ad_top/u_AD7266/spi_clk_syn_3: 6(6)  out of 30(29)
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_l
+ |    Bank 0: Net lsm_top/coef_update_dut/clk_i_syn_3: 82(82)  out of 380(380)
+ |    Bank 1: Net ad_top/u_AD7266/spi_clk_syn_3: 23(23)  out of 30(29)
+ |    Bank 2: Net SCK_syn_5: 22(21)  out of 23(21)
+ |    Bank 3: Net ad_top/u_AD7266/sys_clk: 1(1)  out of 2(2)
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_r
+ |    Bank 0: Net lsm_top/coef_update_dut/clk_i_syn_3: 182(182)  out of 380(380)
+ |    Bank 1: Net uart_top/UART/clk_syn_1: 19(19)  out of 41(41)
+ |    Bank 2: Net uart_top/clkI160_syn_3: 6(5)  out of 6(5)
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_l
+ |    Bank 0: Net lsm_top/coef_update_dut/clk_i_syn_3: 22(22)  out of 380(380)
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_r
+ |    Bank 0: Net lsm_top/coef_update_dut/clk_i_syn_3: 94(94)  out of 380(380)
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_l
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_l
+ |    Bank 0:
+ |    |    Net lsm_top/div40/clk_syn_1: 22(22)  out of 22(22)
+ |    |    |    1: (lslice) lsm_top/div40/reg0_syn_70.clk;
+ |    |    |    2: (lslice) lsm_top/div40/add0_syn_148.clk;
+ |    |    |    3: (lslice) lsm_top/div40/reg0_syn_68.clk;
+ |    |    |    4: (lslice) lsm_top/div40/add0_syn_129.clk;
+ |    |    |    5: (lslice) lsm_top/div40/add0_syn_130.clk;
+ |    |    |    6: (lslice) lsm_top/div40/reg0_syn_66.clk;
+ |    |    |    7: (lslice) lsm_top/div40/add0_syn_132.clk;
+ |    |    |    8: (lslice) lsm_top/div40/add0_syn_147.clk;
+ |    |    |    9: (lslice) lsm_top/div40/add0_syn_134.clk;
+ |    |    |    10: (lslice) lsm_top/div40/add0_syn_135.clk;
+ |    |    |    11: (lslice) lsm_top/div40/add0_syn_136.clk;
+ |    |    |    12: (lslice) lsm_top/div40/add0_syn_137.clk;
+ |    |    |    13: (lslice) lsm_top/div40/add0_syn_138.clk;
+ |    |    |    14: (lslice) lsm_top/div40/add0_syn_139.clk;
+ |    |    |    15: (lslice) lsm_top/div40/add0_syn_140.clk;
+ |    |    |    16: (lslice) lsm_top/div40/add0_syn_141.clk;
+ |    |    |    17: (lslice) lsm_top/div40/add0_syn_142.clk;
+ |    |    |    18: (lslice) lsm_top/div40/add0_syn_143.clk;
+ |    |    |    19: (lslice) lsm_top/div40/add0_syn_144.clk;
+ |    |    |    20: (lslice) lsm_top/div40/add0_syn_145.clk;
+ |    |    |    21: (lslice) lsm_top/div40/add0_syn_146.clk;
+ |    |    |    22: (lslice) lsm_top/div40/out_reg_syn_3.clk;
+ |    Bank 1:
+ |    |    Net ad_top/u_AD7266/sys_clk: 1(1)  out of 2(2)
+ |    |    |    1: (lslice) ad_top/u_AD7266/reg21_syn_23.clk;
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_r
+ |    Bank 0:
+ |    |    Net uart_top/UART/clk_syn_1: 22(22)  out of 41(41)
+ |    |    |    1: (lslice) uart_top/div160/add0_syn_145.clk;
+ |    |    |    2: (lslice) uart_top/div160/reg0_syn_70.clk;
+ |    |    |    3: (lslice) uart_top/div160/reg0_syn_66.clk;
+ |    |    |    4: (lslice) uart_top/div160/add0_syn_148.clk;
+ |    |    |    5: (lslice) uart_top/div160/add0_syn_146.clk;
+ |    |    |    6: (lslice) uart_top/div160/add0_syn_147.clk;
+ |    |    |    7: (lslice) uart_top/div160/reg0_syn_68.clk;
+ |    |    |    8: (lslice) uart_top/div160/add0_syn_129.clk;
+ |    |    |    9: (lslice) uart_top/div160/add0_syn_130.clk;
+ |    |    |    10: (lslice) uart_top/div160/add0_syn_131.clk;
+ |    |    |    11: (lslice) uart_top/div160/add0_syn_132.clk;
+ |    |    |    12: (lslice) uart_top/div160/add0_syn_134.clk;
+ |    |    |    13: (lslice) uart_top/div160/add0_syn_136.clk;
+ |    |    |    14: (lslice) uart_top/div160/add0_syn_137.clk;
+ |    |    |    15: (lslice) uart_top/div160/add0_syn_138.clk;
+ |    |    |    16: (lslice) uart_top/div160/add0_syn_139.clk;
+ |    |    |    17: (lslice) uart_top/div160/add0_syn_140.clk;
+ |    |    |    18: (lslice) uart_top/div160/add0_syn_141.clk;
+ |    |    |    19: (lslice) uart_top/div160/add0_syn_142.clk;
+ |    |    |    20: (lslice) uart_top/div160/add0_syn_143.clk;
+ |    |    |    21: (lslice) uart_top/div160/add0_syn_144.clk;
+ |    |    |    22: (lslice) uart_top/div160/out_reg_syn_3.clk;
+ |    Bank 1:
+ |    |    Net ad_top/u_AD7266/spi_clk_syn_3: 6(6)  out of 30(29)
+ |    |    |    1: (lslice) ad_top/u_AD7266/READY_FLAG_reg_syn_3.clk;
+ |    |    |    2: (lslice) ad_top/u_AD7266/reg19_syn_46.clk;
+ |    |    |    3: (lslice) ad_top/u_AD7266/reg19_syn_44.clk;
+ |    |    |    4: (lslice) ad_top/u_AD7266/reg19_syn_39.clk;
+ |    |    |    5: (lslice) ad_top/u_AD7266/reg19_syn_36.clk;
+ |    |    |    6: (lslice) ad_top/u_AD7266/reg19_syn_42.clk;
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_l
+ |    Bank 0:
+ |    |    Net lsm_top/coef_update_dut/clk_i_syn_3: 82(82)  out of 380(380)
+ |    |    |    1: (lslice) lsm_top/coef_update_dut/reg20_syn_64.clk;
+ |    |    |    2: (lslice) lsm_top/coef_update_dut/add0_syn_99.clk;
+ |    |    |    3: (lslice) lsm_top/coef_update_dut/add1_syn_99.clk;
+ |    |    |    4: (lslice) lsm_top/coef_update_dut/add2_syn_99.clk;
+ |    |    |    5: (lslice) lsm_top/coef_update_dut/reg20_syn_73.clk;
+ |    |    |    6: (lslice) lsm_top/coef_update_dut/reg20_syn_58.clk;
+ |    |    |    7: (lslice) lsm_top/coef_update_dut/reg20_syn_76.clk;
+ |    |    |    8: (lslice) lsm_top/coef_update_dut/reg19_syn_66.clk;
+ |    |    |    9: (lslice) lsm_top/coef_update_dut/reg19_syn_74.clk;
+ |    |    |    10: (lslice) lsm_top/coef_update_dut/add1_syn_90.clk;
+ |    |    |    11: (lslice) lsm_top/coef_update_dut/add1_syn_91.clk;
+ |    |    |    12: (lslice) lsm_top/coef_update_dut/add1_syn_88.clk;
+ |    |    |    13: (lslice) lsm_top/coef_update_dut/reg20_syn_61.clk;
+ |    |    |    14: (lslice) lsm_top/coef_update_dut/add1_syn_93.clk;
+ |    |    |    15: (lslice) lsm_top/coef_update_dut/add1_syn_85.clk;
+ |    |    |    16: (lslice) lsm_top/coef_update_dut/add0_syn_85.clk;
+ |    |    |    17: (lslice) lsm_top/coef_update_dut/add0_syn_86.clk;
+ |    |    |    18: (lslice) lsm_top/coef_update_dut/add0_syn_87.clk;
+ |    |    |    19: (lslice) lsm_top/coef_update_dut/add0_syn_88.clk;
+ |    |    |    20: (lslice) lsm_top/coef_update_dut/add0_syn_89.clk;
+ |    |    |    21: (lslice) lsm_top/coef_update_dut/add0_syn_90.clk;
+ |    |    |    22: (lslice) lsm_top/coef_update_dut/add0_syn_91.clk;
+ |    |    |    23: (lslice) lsm_top/coef_update_dut/add0_syn_92.clk;
+ |    |    |    24: (lslice) lsm_top/coef_update_dut/add0_syn_93.clk;
+ |    |    |    25: (lslice) lsm_top/coef_update_dut/add0_syn_94.clk;
+ |    |    |    26: (lslice) lsm_top/coef_update_dut/add0_syn_95.clk;
+ |    |    |    27: (lslice) lsm_top/coef_update_dut/add0_syn_96.clk;
+ |    |    |    28: (lslice) lsm_top/coef_update_dut/add0_syn_97.clk;
+ |    |    |    29: (lslice) lsm_top/coef_update_dut/add0_syn_98.clk;
+ |    |    |    30: (lslice) lsm_top/coef_update_dut/add0_syn_100.clk;
+ |    |    |    31: (lslice) lsm_top/coef_update_dut/reg19_syn_57.clk;
+ |    |    |    32: (lslice) lsm_top/coef_update_dut/reg19_syn_71.clk;
+ |    |    |    33: (lslice) lsm_top/coef_update_dut/reg21_syn_76.clk;
+ |    |    |    34: (lslice) lsm_top/coef_update_dut/reg19_syn_63.clk;
+ |    |    |    35: (lslice) lsm_top/coef_update_dut/add1_syn_87.clk;
+ |    |    |    36: (lslice) lsm_top/coef_update_dut/reg19_syn_60.clk;
+ |    |    |    37: (lslice) lsm_top/coef_update_dut/add1_syn_97.clk;
+ |    |    |    38: (lslice) lsm_top/coef_update_dut/reg19_syn_68.clk;
+ |    |    |    39: (lslice) lsm_top/coef_update_dut/add1_syn_100.clk;
+ |    |    |    40: (lslice) lsm_top/coef_update_dut/reg18_syn_64.clk;
+ |    |    |    41: (lslice) lsm_top/coef_update_dut/add1_syn_98.clk;
+ |    |    |    42: (lslice) lsm_top/coef_update_dut/add1_syn_86.clk;
+ |    |    |    43: (lslice) lsm_top/coef_update_dut/add1_syn_94.clk;
+ |    |    |    44: (lslice) lsm_top/coef_update_dut/add1_syn_95.clk;
+ |    |    |    45: (lslice) lsm_top/error_calcu_dut/reg0_syn_23.clk;
+ |    |    |    46: (lslice) lsm_top/coef_update_dut/reg21_syn_57.clk;
+ |    |    |    47: (lslice) lsm_top/coef_update_dut/add1_syn_96.clk;
+ |    |    |    48: (lslice) lsm_top/error_calcu_dut/reg7_syn_23.clk;
+ |    |    |    49: (mult18) lsm_top/coef_update_dut/mult1_syn_49.clk;
+ |    |    |    50: (mult18) lsm_top/coef_update_dut/mult2_syn_49.clk;
+ |    |    |    51: (mult18) lsm_top/coef_update_dut/mult3_syn_49.clk;
+ |    |    |    52: (lslice) lsm_top/coef_update_dut/add1_syn_92.clk;
+ |    |    |    53: (lslice) lsm_top/coef_update_dut/reg18_syn_78.clk;
+ |    |    |    54: (lslice) lsm_top/coef_update_dut/reg18_syn_80.clk;
+ |    |    |    55: (lslice) lsm_top/coef_update_dut/reg18_syn_75.clk;
+ |    |    |    56: (lslice) lsm_top/coef_update_dut/reg18_syn_73.clk;
+ |    |    |    57: (lslice) lsm_top/coef_update_dut/reg18_syn_70.clk;
+ |    |    |    58: (lslice) lsm_top/coef_update_dut/reg18_syn_67.clk;
+ |    |    |    59: (lslice) lsm_top/coef_update_dut/add2_syn_85.clk;
+ |    |    |    60: (lslice) lsm_top/coef_update_dut/add2_syn_86.clk;
+ |    |    |    61: (lslice) lsm_top/coef_update_dut/add2_syn_87.clk;
+ |    |    |    62: (lslice) lsm_top/coef_update_dut/add2_syn_88.clk;
+ |    |    |    63: (lslice) lsm_top/coef_update_dut/add2_syn_89.clk;
+ |    |    |    64: (lslice) lsm_top/coef_update_dut/add2_syn_90.clk;
+ |    |    |    65: (lslice) lsm_top/coef_update_dut/add2_syn_91.clk;
+ |    |    |    66: (lslice) lsm_top/coef_update_dut/add2_syn_92.clk;
+ |    |    |    67: (lslice) lsm_top/coef_update_dut/add2_syn_93.clk;
+ |    |    |    68: (lslice) lsm_top/coef_update_dut/add2_syn_94.clk;
+ |    |    |    69: (lslice) lsm_top/coef_update_dut/add2_syn_95.clk;
+ |    |    |    70: (lslice) lsm_top/coef_update_dut/add2_syn_96.clk;
+ |    |    |    71: (lslice) lsm_top/coef_update_dut/add2_syn_97.clk;
+ |    |    |    72: (lslice) lsm_top/coef_update_dut/add2_syn_98.clk;
+ |    |    |    73: (lslice) lsm_top/coef_update_dut/add2_syn_100.clk;
+ |    |    |    74: (lslice) lsm_top/coef_update_dut/reg18_syn_58.clk;
+ |    |    |    75: (lslice) lsm_top/coef_update_dut/reg18_syn_61.clk;
+ |    |    |    76: (lslice) lsm_top/error_calcu_dut/reg5_syn_23.clk;
+ |    |    |    77: (lslice) lsm_top/coef_update_dut/add1_syn_89.clk;
+ |    |    |    78: (lslice) lsm_top/coef_update_dut/reg20_syn_67.clk;
+ |    |    |    79: (lslice) lsm_top/coef_update_dut/reg20_syn_70.clk;
+ |    |    |    80: (lslice) lsm_top/coef_update_dut/reg21_syn_68.clk;
+ |    |    |    81: (lslice) lsm_top/coef_update_dut/reg21_syn_60.clk;
+ |    |    |    82: (lslice) lsm_top/error_calcu_dut/reg3_syn_23.clk;
+ |    Bank 1:
+ |    |    Net ad_top/u_AD7266/spi_clk_syn_3: 23(23)  out of 30(29)
+ |    |    |    1: (lslice) ad_top/u_AD7266/reg23_syn_29.clk;
+ |    |    |    2: (lslice) ad_top/u_AD7266/reg22_syn_25.clk;
+ |    |    |    3: (lslice) ad_top/u_AD7266/reg23_syn_25.clk;
+ |    |    |    4: (lslice) ad_top/u_AD7266/reg1_syn_55.clk;
+ |    |    |    5: (lslice) ad_top/u_AD7266/reg22_syn_22.clk;
+ |    |    |    6: (lslice) ad_top/u_AD7266/spi_rd_done_reg_syn_3.clk;
+ |    |    |    7: (lslice) ad_top/u_AD7266/reg22_syn_29.clk;
+ |    |    |    8: (lslice) ad_top/u_AD7266/SCK_reg_syn_3.clk;
+ |    |    |    9: (lslice) ad_top/u_AD7266/reg23_syn_22.clk;
+ |    |    |    10: (lslice) ad_top/u_AD7266/reg23_syn_27.clk;
+ |    |    |    11: (lslice) ad_top/u_AD7266/reg1_syn_52.clk;
+ |    |    |    12: (lslice) ad_top/u_AD7266/reg1_syn_49.clk;
+ |    |    |    13: (lslice) ad_top/u_AD7266/CS_reg_syn_3.clk;
+ |    |    |    14: (lslice) ad_top/u_AD7266/reg1_syn_46.clk;
+ |    |    |    15: (lslice) ad_top/u_AD7266/reg1_syn_43.clk;
+ |    |    |    16: (lslice) ad_top/u_AD7266/reg1_syn_40.clk;
+ |    |    |    17: (lslice) ad_top/u_AD7266/reg13_syn_55.clk;
+ |    |    |    18: (lslice) ad_top/u_AD7266/reg13_syn_49.clk;
+ |    |    |    19: (lslice) ad_top/u_AD7266/reg13_syn_40.clk;
+ |    |    |    20: (lslice) ad_top/u_AD7266/reg13_syn_52.clk;
+ |    |    |    21: (lslice) ad_top/u_AD7266/reg13_syn_46.clk;
+ |    |    |    22: (lslice) ad_top/u_AD7266/reg22_syn_27.clk;
+ |    |    |    23: (lslice) ad_top/u_AD7266/reg13_syn_43.clk;
+ |    Bank 2:
+ |    |    Net SCK_syn_5: 22(21)  out of 23(21)
+ |    |    |    1: (lslice) ad_top/u_AD7266/reg20_syn_22.clk;
+ |    |    |    2: (lslice) ad_top/u_AD7266/reg0_syn_119.clk;
+ |    |    |    3: (lslice) ad_top/u_AD7266/reg0_syn_122.clk;
+ |    |    |    4: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.clk;
+ |    |    |    5: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n27_syn_4.clk;
+ |    |    |    6: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n19_syn_6.clk;
+ |    |    |    7: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.clk;
+ |    |    |    8: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n26_syn_7.clk;
+ |    |    |    9: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n25_syn_4.clk;
+ |    |    |    10: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n24_syn_4.clk;
+ |    |    |    11: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n23_syn_4.clk;
+ |    |    |    12: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n22_syn_13.clk;
+ |    |    |    13: (lslice) ad_top/u_AD7266/reg0_syn_125.clk;
+ |    |    |    14: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n17_syn_5.clk;
+ |    |    |    15: (lslice) ad_top/u_AD7266/reg0_syn_128.clk;
+ |    |    |    16: (lslice) ad_top/u_AD7266/reg20_syn_25.clk;
+ |    |    |    17: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.clk;
+ |    |    |    18: (lslice) ad_top/u_AD7266/A1B1_Result_b2_n16_syn_4.clk;
+ |    |    |    19: (lslice) ad_top/u_AD7266/reg20_syn_28.clk;
+ |    |    |    20: (lslice) ad_top/u_AD7266/SCK_reg_syn_3.ie (non-clock);
+ |    |    |    21: (lslice) ad_top/u_AD7266/reg0_syn_116.clk;
+ |    |    |    22: (lslice) ad_top/u_AD7266/reg0_syn_131.clk;
+ |    Bank 3:
+ |    |    Net ad_top/u_AD7266/sys_clk: 1(1)  out of 2(2)
+ |    |    |    1: (pll) mypll/pll_inst.fbclk;
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_r
+ |    Bank 0:
+ |    |    Net lsm_top/coef_update_dut/clk_i_syn_3: 182(182)  out of 380(380)
+ |    |    |    1: (lslice) lsm_top/fir_dut/add6_syn_195.clk;
+ |    |    |    2: (lslice) lsm_top/fir_dut/add6_syn_193.clk;
+ |    |    |    3: (lslice) lsm_top/fir_dut/add6_syn_201.clk;
+ |    |    |    4: (lslice) lsm_top/coef_update_dut/reg22_syn_57.clk;
+ |    |    |    5: (lslice) lsm_top/fir_dut/add6_syn_198.clk;
+ |    |    |    6: (lslice) lsm_top/fir_dut/add4_syn_189.clk;
+ |    |    |    7: (lslice) lsm_top/coef_update_dut/add3_syn_99.clk;
+ |    |    |    8: (lslice) lsm_top/coef_update_dut/add4_syn_99.clk;
+ |    |    |    9: (lslice) lsm_top/fir_dut/add5_syn_183.clk;
+ |    |    |    10: (lslice) lsm_top/coef_update_dut/reg22_syn_66.clk;
+ |    |    |    11: (lslice) lsm_top/fir_dut/add4_syn_210.clk;
+ |    |    |    12: (lslice) lsm_top/fir_dut/add4_syn_208.clk;
+ |    |    |    13: (lslice) lsm_top/fir_dut/add5_syn_182.clk;
+ |    |    |    14: (lslice) lsm_top/fir_dut/add5_syn_180.clk;
+ |    |    |    15: (lslice) lsm_top/fir_dut/add5_syn_178.clk;
+ |    |    |    16: (lslice) lsm_top/fir_dut/add6_syn_218.clk;
+ |    |    |    17: (lslice) lsm_top/fir_dut/add4_syn_196.clk;
+ |    |    |    18: (lslice) lsm_top/fir_dut/add6_syn_188.clk;
+ |    |    |    19: (lslice) lsm_top/fir_dut/reg7_syn_176.clk;
+ |    |    |    20: (lslice) lsm_top/fir_dut/add7_syn_218.clk;
+ |    |    |    21: (lslice) lsm_top/fir_dut/add6_syn_211.clk;
+ |    |    |    22: (lslice) lsm_top/fir_dut/add6_syn_203.clk;
+ |    |    |    23: (lslice) lsm_top/fir_dut/add6_syn_206.clk;
+ |    |    |    24: (lslice) lsm_top/fir_dut/add5_syn_193.clk;
+ |    |    |    25: (mult18) lsm_top/fir_dut/mult5_syn_48.clk;
+ |    |    |    26: (lslice) lsm_top/fir_dut/add6_syn_196.clk;
+ |    |    |    27: (lslice) lsm_top/fir_dut/add4_syn_197.clk;
+ |    |    |    28: (lslice) lsm_top/fir_dut/reg7_syn_167.clk;
+ |    |    |    29: (lslice) lsm_top/fir_dut/add4_syn_182.clk;
+ |    |    |    30: (lslice) lsm_top/fir_dut/add5_syn_203.clk;
+ |    |    |    31: (lslice) lsm_top/fir_dut/add5_syn_189.clk;
+ |    |    |    32: (lslice) lsm_top/fir_dut/add6_syn_213.clk;
+ |    |    |    33: (lslice) lsm_top/fir_dut/add6_syn_186.clk;
+ |    |    |    34: (lslice) lsm_top/fir_dut/add6_syn_184.clk;
+ |    |    |    35: (mult18) lsm_top/fir_dut/mult6_syn_48.clk;
+ |    |    |    36: (lslice) lsm_top/fir_dut/add5_syn_185.clk;
+ |    |    |    37: (lslice) lsm_top/fir_dut/add6_syn_191.clk;
+ |    |    |    38: (lslice) lsm_top/fir_dut/add6_syn_187.clk;
+ |    |    |    39: (lslice) lsm_top/fir_dut/add4_syn_195.clk;
+ |    |    |    40: (lslice) lsm_top/coef_update_dut/reg22_syn_63.clk;
+ |    |    |    41: (lslice) lsm_top/fir_dut/reg7_syn_152.clk;
+ |    |    |    42: (lslice) lsm_top/fir_dut/add4_syn_194.clk;
+ |    |    |    43: (lslice) lsm_top/fir_dut/add4_syn_193.clk;
+ |    |    |    44: (lslice) lsm_top/fir_dut/add4_syn_192.clk;
+ |    |    |    45: (lslice) lsm_top/fir_dut/add4_syn_191.clk;
+ |    |    |    46: (lslice) lsm_top/fir_dut/add4_syn_190.clk;
+ |    |    |    47: (lslice) lsm_top/fir_dut/add5_syn_199.clk;
+ |    |    |    48: (lslice) lsm_top/fir_dut/add5_syn_202.clk;
+ |    |    |    49: (lslice) lsm_top/fir_dut/reg7_syn_164.clk;
+ |    |    |    50: (lslice) lsm_top/fir_dut/reg7_syn_161.clk;
+ |    |    |    51: (lslice) lsm_top/fir_dut/reg7_syn_158.clk;
+ |    |    |    52: (lslice) lsm_top/fir_dut/reg7_syn_170.clk;
+ |    |    |    53: (lslice) lsm_top/fir_dut/add6_syn_208.clk;
+ |    |    |    54: (lslice) lsm_top/fir_dut/add6_syn_207.clk;
+ |    |    |    55: (lslice) lsm_top/fir_dut/add6_syn_194.clk;
+ |    |    |    56: (lslice) lsm_top/fir_dut/add4_syn_183.clk;
+ |    |    |    57: (lslice) lsm_top/coef_update_dut/reg22_syn_60.clk;
+ |    |    |    58: (lslice) lsm_top/fir_dut/add4_syn_184.clk;
+ |    |    |    59: (lslice) lsm_top/fir_dut/add4_syn_185.clk;
+ |    |    |    60: (lslice) lsm_top/coef_update_dut/reg21_syn_63.clk;
+ |    |    |    61: (lslice) lsm_top/fir_dut/add4_syn_186.clk;
+ |    |    |    62: (lslice) lsm_top/fir_dut/add4_syn_187.clk;
+ |    |    |    63: (lslice) lsm_top/fir_dut/add4_syn_188.clk;
+ |    |    |    64: (lslice) lsm_top/fir_dut/add4_syn_179.clk;
+ |    |    |    65: (lslice) lsm_top/fir_dut/add4_syn_180.clk;
+ |    |    |    66: (lslice) lsm_top/fir_dut/add4_syn_181.clk;
+ |    |    |    67: (lslice) lsm_top/fir_dut/add5_syn_198.clk;
+ |    |    |    68: (lslice) lsm_top/fir_dut/add5_syn_195.clk;
+ |    |    |    69: (lslice) lsm_top/fir_dut/add5_syn_194.clk;
+ |    |    |    70: (lslice) lsm_top/fir_dut/add5_syn_184.clk;
+ |    |    |    71: (lslice) lsm_top/fir_dut/reg7_syn_140.clk;
+ |    |    |    72: (lslice) lsm_top/fir_dut/reg7_syn_173.clk;
+ |    |    |    73: (lslice) lsm_top/fir_dut/reg10_syn_149.clk;
+ |    |    |    74: (lslice) lsm_top/fir_dut/reg10_syn_146.clk;
+ |    |    |    75: (lslice) lsm_top/fir_dut/reg10_syn_143.clk;
+ |    |    |    76: (lslice) lsm_top/fir_dut/reg10_syn_140.clk;
+ |    |    |    77: (lslice) lsm_top/coef_update_dut/reg22_syn_69.clk;
+ |    |    |    78: (lslice) lsm_top/fir_dut/add6_syn_202.clk;
+ |    |    |    79: (mult18) lsm_top/fir_dut/mult3_syn_48.clk;
+ |    |    |    80: (lslice) lsm_top/coef_update_dut/reg22_syn_77.clk;
+ |    |    |    81: (lslice) lsm_top/fir_dut/add6_syn_199.clk;
+ |    |    |    82: (lslice) lsm_top/fir_dut/add5_syn_187.clk;
+ |    |    |    83: (lslice) lsm_top/fir_dut/add6_syn_210.clk;
+ |    |    |    84: (lslice) lsm_top/fir_dut/add6_syn_214.clk;
+ |    |    |    85: (mult18) lsm_top/fir_dut/mult2_syn_48.clk;
+ |    |    |    86: (mult18) lsm_top/fir_dut/mult4_syn_48.clk;
+ |    |    |    87: (mult18) lsm_top/fir_dut/mult0_syn_48.clk;
+ |    |    |    88: (mult18) lsm_top/coef_update_dut/mult4_syn_49.clk;
+ |    |    |    89: (lslice) lsm_top/fir_dut/add4_syn_199.clk;
+ |    |    |    90: (lslice) lsm_top/fir_dut/add4_syn_209.clk;
+ |    |    |    91: (lslice) lsm_top/fir_dut/add4_syn_207.clk;
+ |    |    |    92: (lslice) lsm_top/fir_dut/add6_syn_216.clk;
+ |    |    |    93: (lslice) lsm_top/fir_dut/add4_syn_198.clk;
+ |    |    |    94: (lslice) lsm_top/fir_dut/add6_syn_215.clk;
+ |    |    |    95: (lslice) lsm_top/fir_dut/reg7_syn_179.clk;
+ |    |    |    96: (lslice) lsm_top/coef_update_dut/reg21_syn_74.clk;
+ |    |    |    97: (lslice) lsm_top/fir_dut/reg10_syn_176.clk;
+ |    |    |    98: (lslice) lsm_top/coef_update_dut/reg22_syn_72.clk;
+ |    |    |    99: (lslice) lsm_top/fir_dut/reg7_syn_137.clk;
+ |    |    |    100: (lslice) lsm_top/fir_dut/add5_syn_205.clk;
+ |    |    |    101: (lslice) lsm_top/fir_dut/add6_syn_190.clk;
+ |    |    |    102: (lslice) lsm_top/fir_dut/add5_syn_201.clk;
+ |    |    |    103: (lslice) lsm_top/fir_dut/add5_syn_204.clk;
+ |    |    |    104: (lslice) lsm_top/fir_dut/add5_syn_200.clk;
+ |    |    |    105: (lslice) lsm_top/fir_dut/add5_syn_197.clk;
+ |    |    |    106: (lslice) lsm_top/fir_dut/reg7_syn_155.clk;
+ |    |    |    107: (lslice) lsm_top/fir_dut/add7_syn_226.clk;
+ |    |    |    108: (lslice) lsm_top/fir_dut/add5_syn_181.clk;
+ |    |    |    109: (lslice) lsm_top/fir_dut/reg10_syn_152.clk;
+ |    |    |    110: (lslice) lsm_top/fir_dut/add7_syn_227.clk;
+ |    |    |    111: (mult18) lsm_top/fir_dut/mult1_syn_48.clk;
+ |    |    |    112: (lslice) lsm_top/fir_dut/add7_syn_225.clk;
+ |    |    |    113: (lslice) lsm_top/fir_dut/add4_syn_178.clk;
+ |    |    |    114: (lslice) lsm_top/fir_dut/add7_syn_224.clk;
+ |    |    |    115: (lslice) lsm_top/fir_dut/reg7_syn_149.clk;
+ |    |    |    116: (lslice) lsm_top/fir_dut/reg7_syn_146.clk;
+ |    |    |    117: (lslice) lsm_top/fir_dut/add6_syn_185.clk;
+ |    |    |    118: (lslice) lsm_top/fir_dut/add5_syn_186.clk;
+ |    |    |    119: (lslice) lsm_top/fir_dut/add7_syn_223.clk;
+ |    |    |    120: (lslice) lsm_top/coef_update_dut/reg21_syn_66.clk;
+ |    |    |    121: (lslice) lsm_top/fir_dut/add5_syn_192.clk;
+ |    |    |    122: (lslice) lsm_top/fir_dut/add5_syn_191.clk;
+ |    |    |    123: (lslice) lsm_top/fir_dut/add4_syn_206.clk;
+ |    |    |    124: (lslice) lsm_top/fir_dut/add6_syn_217.clk;
+ |    |    |    125: (lslice) lsm_top/fir_dut/add4_syn_205.clk;
+ |    |    |    126: (lslice) lsm_top/fir_dut/add4_syn_204.clk;
+ |    |    |    127: (lslice) lsm_top/fir_dut/add4_syn_203.clk;
+ |    |    |    128: (lslice) lsm_top/fir_dut/add4_syn_202.clk;
+ |    |    |    129: (lslice) lsm_top/fir_dut/add4_syn_201.clk;
+ |    |    |    130: (lslice) lsm_top/fir_dut/add4_syn_200.clk;
+ |    |    |    131: (lslice) lsm_top/fir_dut/add6_syn_197.clk;
+ |    |    |    132: (lslice) lsm_top/coef_update_dut/add4_syn_85.clk;
+ |    |    |    133: (lslice) lsm_top/coef_update_dut/add4_syn_86.clk;
+ |    |    |    134: (lslice) lsm_top/coef_update_dut/add4_syn_87.clk;
+ |    |    |    135: (lslice) lsm_top/coef_update_dut/add4_syn_88.clk;
+ |    |    |    136: (lslice) lsm_top/coef_update_dut/add4_syn_89.clk;
+ |    |    |    137: (lslice) lsm_top/coef_update_dut/add4_syn_90.clk;
+ |    |    |    138: (lslice) lsm_top/coef_update_dut/add4_syn_91.clk;
+ |    |    |    139: (lslice) lsm_top/coef_update_dut/add4_syn_92.clk;
+ |    |    |    140: (lslice) lsm_top/coef_update_dut/add4_syn_93.clk;
+ |    |    |    141: (lslice) lsm_top/fir_dut/add5_syn_179.clk;
+ |    |    |    142: (lslice) lsm_top/fir_dut/add7_syn_222.clk;
+ |    |    |    143: (lslice) lsm_top/coef_update_dut/reg21_syn_71.clk;
+ |    |    |    144: (lslice) lsm_top/fir_dut/add7_syn_221.clk;
+ |    |    |    145: (lslice) lsm_top/fir_dut/add7_syn_220.clk;
+ |    |    |    146: (lslice) lsm_top/fir_dut/add7_syn_219.clk;
+ |    |    |    147: (lslice) lsm_top/fir_dut/add6_syn_189.clk;
+ |    |    |    148: (lslice) lsm_top/fir_dut/add6_syn_192.clk;
+ |    |    |    149: (lslice) lsm_top/fir_dut/add6_syn_200.clk;
+ |    |    |    150: (lslice) lsm_top/fir_dut/reg7_syn_143.clk;
+ |    |    |    151: (lslice) lsm_top/fir_dut/add6_syn_205.clk;
+ |    |    |    152: (lslice) lsm_top/fir_dut/add6_syn_204.clk;
+ |    |    |    153: (lslice) lsm_top/coef_update_dut/add4_syn_94.clk;
+ |    |    |    154: (lslice) lsm_top/coef_update_dut/add4_syn_95.clk;
+ |    |    |    155: (lslice) lsm_top/coef_update_dut/add4_syn_96.clk;
+ |    |    |    156: (lslice) lsm_top/coef_update_dut/add4_syn_97.clk;
+ |    |    |    157: (lslice) lsm_top/coef_update_dut/add4_syn_98.clk;
+ |    |    |    158: (lslice) lsm_top/coef_update_dut/add4_syn_100.clk;
+ |    |    |    159: (lslice) lsm_top/fir_dut/add6_syn_209.clk;
+ |    |    |    160: (lslice) lsm_top/fir_dut/add6_syn_212.clk;
+ |    |    |    161: (lslice) lsm_top/fir_dut/add5_syn_190.clk;
+ |    |    |    162: (lslice) lsm_top/coef_update_dut/add3_syn_85.clk;
+ |    |    |    163: (lslice) lsm_top/coef_update_dut/add3_syn_86.clk;
+ |    |    |    164: (lslice) lsm_top/coef_update_dut/add3_syn_87.clk;
+ |    |    |    165: (lslice) lsm_top/coef_update_dut/add3_syn_88.clk;
+ |    |    |    166: (lslice) lsm_top/coef_update_dut/add3_syn_89.clk;
+ |    |    |    167: (lslice) lsm_top/coef_update_dut/add3_syn_90.clk;
+ |    |    |    168: (lslice) lsm_top/coef_update_dut/add3_syn_91.clk;
+ |    |    |    169: (lslice) lsm_top/coef_update_dut/add3_syn_92.clk;
+ |    |    |    170: (lslice) lsm_top/coef_update_dut/add3_syn_93.clk;
+ |    |    |    171: (lslice) lsm_top/coef_update_dut/add3_syn_94.clk;
+ |    |    |    172: (lslice) lsm_top/coef_update_dut/add3_syn_95.clk;
+ |    |    |    173: (lslice) lsm_top/coef_update_dut/add3_syn_96.clk;
+ |    |    |    174: (lslice) lsm_top/coef_update_dut/add3_syn_97.clk;
+ |    |    |    175: (lslice) lsm_top/coef_update_dut/add3_syn_98.clk;
+ |    |    |    176: (lslice) lsm_top/coef_update_dut/add3_syn_100.clk;
+ |    |    |    177: (lslice) lsm_top/fir_dut/add5_syn_188.clk;
+ |    |    |    178: (lslice) lsm_top/fir_dut/add7_syn_216.clk;
+ |    |    |    179: (lslice) lsm_top/fir_dut/add7_syn_217.clk;
+ |    |    |    180: (lslice) lsm_top/fir_dut/add5_syn_196.clk;
+ |    |    |    181: (lslice) lsm_top/fir_dut/add4_syn_211.clk;
+ |    |    |    182: (lslice) lsm_top/coef_update_dut/reg22_syn_75.clk;
+ |    Bank 1:
+ |    |    Net uart_top/UART/clk_syn_1: 19(19)  out of 41(41)
+ |    |    |    1: (lslice) uart_top/UART/al_7bd115f1_syn_3.clk;
+ |    |    |    2: (lslice) uart_top/UART/al_56dde5cc_syn_3.clk;
+ |    |    |    3: (lslice) uart_top/UART/al_2d4e59e9_syn_3.clk;
+ |    |    |    4: (lslice) uart_top/UART/al_ec299de1_syn_3.clk;
+ |    |    |    5: (lslice) uart_top/UART/al_9b1e179_syn_3.clk;
+ |    |    |    6: (lslice) uart_top/UART/al_cea83c51_syn_3.clk;
+ |    |    |    7: (lslice) uart_top/UART/al_8ca2cbad_syn_3.clk;
+ |    |    |    8: (lslice) uart_top/UART/al_93985aa0_syn_3.clk;
+ |    |    |    9: (lslice) uart_top/UART/al_b58d9df0_syn_3.clk;
+ |    |    |    10: (lslice) uart_top/UART/al_6acfb5b0_syn_4.clk;
+ |    |    |    11: (lslice) uart_top/UART/al_f5ac1211_syn_3.clk;
+ |    |    |    12: (lslice) uart_top/UART/al_4c18300b_syn_3.clk;
+ |    |    |    13: (lslice) uart_top/UART/al_9317e830_syn_4.clk;
+ |    |    |    14: (lslice) uart_top/UART/al_a536c0f1_syn_3.clk;
+ |    |    |    15: (lslice) uart_top/UART/al_c76ef8bc_syn_3.clk;
+ |    |    |    16: (lslice) uart_top/UART/al_6a2a4f54_syn_3.clk;
+ |    |    |    17: (lslice) uart_top/UART/al_22f253c2_syn_3.clk;
+ |    |    |    18: (lslice) uart_top/UART/al_45714151_syn_3.clk;
+ |    |    |    19: (lslice) uart_top/UART/al_ceac5162_syn_3.clk;
+ |    Bank 2:
+ |    |    Net uart_top/clkI160_syn_3: 6(5)  out of 6(5)
+ |    |    |    1: (lslice) uart_top/tx_data_b[5]_syn_4.clk;
+ |    |    |    2: (lslice) uart_top/UART/al_d9343e79_syn_2.clk;
+ |    |    |    3: (lslice) uart_top/j_reg_syn_7.clk;
+ |    |    |    4: (lslice) uart_top/UART/al_9c922cb0_syn_1.imf (non-clock);
+ |    |    |    5: (lslice) uart_top/tx_data_b[2]_syn_4.clk;
+ |    |    |    6: (lslice) uart_top/tx_data_b[0]_syn_3.clk;
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_l
+ |    Bank 0:
+ |    |    Net lsm_top/coef_update_dut/clk_i_syn_3: 22(22)  out of 380(380)
+ |    |    |    1: (lslice) lsm_top/coef_update_dut/add8_syn_99.clk;
+ |    |    |    2: (lslice) lsm_top/coef_update_dut/reg26_syn_64.clk;
+ |    |    |    3: (lslice) lsm_top/coef_update_dut/reg26_syn_73.clk;
+ |    |    |    4: (lslice) lsm_top/coef_update_dut/reg26_syn_76.clk;
+ |    |    |    5: (lslice) lsm_top/coef_update_dut/reg26_syn_67.clk;
+ |    |    |    6: (mult18) lsm_top/coef_update_dut/mult9_syn_49.clk;
+ |    |    |    7: (lslice) lsm_top/coef_update_dut/add8_syn_85.clk;
+ |    |    |    8: (lslice) lsm_top/coef_update_dut/add8_syn_86.clk;
+ |    |    |    9: (lslice) lsm_top/coef_update_dut/add8_syn_87.clk;
+ |    |    |    10: (lslice) lsm_top/coef_update_dut/add8_syn_88.clk;
+ |    |    |    11: (lslice) lsm_top/coef_update_dut/add8_syn_89.clk;
+ |    |    |    12: (lslice) lsm_top/coef_update_dut/add8_syn_90.clk;
+ |    |    |    13: (lslice) lsm_top/coef_update_dut/add8_syn_91.clk;
+ |    |    |    14: (lslice) lsm_top/coef_update_dut/add8_syn_92.clk;
+ |    |    |    15: (lslice) lsm_top/coef_update_dut/add8_syn_93.clk;
+ |    |    |    16: (lslice) lsm_top/coef_update_dut/add8_syn_94.clk;
+ |    |    |    17: (lslice) lsm_top/coef_update_dut/add8_syn_95.clk;
+ |    |    |    18: (lslice) lsm_top/coef_update_dut/add8_syn_96.clk;
+ |    |    |    19: (lslice) lsm_top/coef_update_dut/add8_syn_97.clk;
+ |    |    |    20: (lslice) lsm_top/coef_update_dut/add8_syn_98.clk;
+ |    |    |    21: (lslice) lsm_top/coef_update_dut/add8_syn_100.clk;
+ |    |    |    22: (lslice) lsm_top/coef_update_dut/reg26_syn_58.clk;
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_r
+ |    Bank 0:
+ |    |    Net lsm_top/coef_update_dut/clk_i_syn_3: 94(94)  out of 380(380)
+ |    |    |    1: (lslice) lsm_top/coef_update_dut/reg25_syn_60.clk;
+ |    |    |    2: (lslice) lsm_top/coef_update_dut/reg25_syn_63.clk;
+ |    |    |    3: (lslice) lsm_top/coef_update_dut/add5_syn_99.clk;
+ |    |    |    4: (lslice) lsm_top/coef_update_dut/add6_syn_99.clk;
+ |    |    |    5: (lslice) lsm_top/coef_update_dut/add7_syn_99.clk;
+ |    |    |    6: (lslice) lsm_top/coef_update_dut/reg25_syn_72.clk;
+ |    |    |    7: (lslice) lsm_top/coef_update_dut/reg24_syn_74.clk;
+ |    |    |    8: (lslice) lsm_top/coef_update_dut/reg23_syn_57.clk;
+ |    |    |    9: (lslice) lsm_top/fir_dut/add5_syn_209.clk;
+ |    |    |    10: (lslice) lsm_top/fir_dut/add5_syn_210.clk;
+ |    |    |    11: (mult18) lsm_top/fir_dut/mult7_syn_48.clk;
+ |    |    |    12: (lslice) lsm_top/coef_update_dut/reg25_syn_69.clk;
+ |    |    |    13: (lslice) lsm_top/coef_update_dut/reg25_syn_57.clk;
+ |    |    |    14: (lslice) lsm_top/coef_update_dut/reg24_syn_58.clk;
+ |    |    |    15: (lslice) lsm_top/coef_update_dut/reg24_syn_64.clk;
+ |    |    |    16: (lslice) lsm_top/coef_update_dut/add5_syn_85.clk;
+ |    |    |    17: (lslice) lsm_top/coef_update_dut/add5_syn_86.clk;
+ |    |    |    18: (lslice) lsm_top/coef_update_dut/add5_syn_87.clk;
+ |    |    |    19: (lslice) lsm_top/coef_update_dut/add5_syn_88.clk;
+ |    |    |    20: (lslice) lsm_top/coef_update_dut/add5_syn_89.clk;
+ |    |    |    21: (lslice) lsm_top/coef_update_dut/add5_syn_90.clk;
+ |    |    |    22: (lslice) lsm_top/coef_update_dut/add5_syn_91.clk;
+ |    |    |    23: (lslice) lsm_top/coef_update_dut/add5_syn_92.clk;
+ |    |    |    24: (lslice) lsm_top/coef_update_dut/add5_syn_93.clk;
+ |    |    |    25: (lslice) lsm_top/coef_update_dut/add5_syn_94.clk;
+ |    |    |    26: (lslice) lsm_top/coef_update_dut/add5_syn_95.clk;
+ |    |    |    27: (lslice) lsm_top/coef_update_dut/add5_syn_96.clk;
+ |    |    |    28: (lslice) lsm_top/coef_update_dut/add5_syn_97.clk;
+ |    |    |    29: (lslice) lsm_top/coef_update_dut/add5_syn_98.clk;
+ |    |    |    30: (lslice) lsm_top/coef_update_dut/add5_syn_100.clk;
+ |    |    |    31: (lslice) lsm_top/fir_dut/reg10_syn_137.clk;
+ |    |    |    32: (lslice) lsm_top/coef_update_dut/reg24_syn_61.clk;
+ |    |    |    33: (lslice) lsm_top/coef_update_dut/reg25_syn_78.clk;
+ |    |    |    34: (lslice) lsm_top/fir_dut/add5_syn_211.clk;
+ |    |    |    35: (mult18) lsm_top/coef_update_dut/mult5_syn_49.clk;
+ |    |    |    36: (mult18) lsm_top/coef_update_dut/mult6_syn_49.clk;
+ |    |    |    37: (mult18) lsm_top/coef_update_dut/mult7_syn_49.clk;
+ |    |    |    38: (mult18) lsm_top/coef_update_dut/mult8_syn_49.clk;
+ |    |    |    39: (lslice) lsm_top/coef_update_dut/add6_syn_85.clk;
+ |    |    |    40: (lslice) lsm_top/coef_update_dut/add6_syn_86.clk;
+ |    |    |    41: (lslice) lsm_top/coef_update_dut/add6_syn_87.clk;
+ |    |    |    42: (lslice) lsm_top/coef_update_dut/add6_syn_88.clk;
+ |    |    |    43: (lslice) lsm_top/coef_update_dut/add6_syn_89.clk;
+ |    |    |    44: (lslice) lsm_top/coef_update_dut/add6_syn_90.clk;
+ |    |    |    45: (lslice) lsm_top/coef_update_dut/add6_syn_91.clk;
+ |    |    |    46: (lslice) lsm_top/coef_update_dut/add6_syn_92.clk;
+ |    |    |    47: (lslice) lsm_top/coef_update_dut/add6_syn_93.clk;
+ |    |    |    48: (lslice) lsm_top/coef_update_dut/add6_syn_94.clk;
+ |    |    |    49: (lslice) lsm_top/coef_update_dut/add6_syn_95.clk;
+ |    |    |    50: (lslice) lsm_top/coef_update_dut/add6_syn_96.clk;
+ |    |    |    51: (lslice) lsm_top/coef_update_dut/add6_syn_97.clk;
+ |    |    |    52: (lslice) lsm_top/coef_update_dut/add6_syn_98.clk;
+ |    |    |    53: (lslice) lsm_top/coef_update_dut/add6_syn_100.clk;
+ |    |    |    54: (lslice) lsm_top/fir_dut/reg10_syn_173.clk;
+ |    |    |    55: (lslice) lsm_top/fir_dut/reg10_syn_170.clk;
+ |    |    |    56: (lslice) lsm_top/fir_dut/reg10_syn_167.clk;
+ |    |    |    57: (lslice) lsm_top/fir_dut/reg10_syn_164.clk;
+ |    |    |    58: (lslice) lsm_top/fir_dut/reg10_syn_161.clk;
+ |    |    |    59: (lslice) lsm_top/fir_dut/reg10_syn_158.clk;
+ |    |    |    60: (lslice) lsm_top/coef_update_dut/reg25_syn_66.clk;
+ |    |    |    61: (lslice) lsm_top/coef_update_dut/reg25_syn_75.clk;
+ |    |    |    62: (mult18) lsm_top/fir_dut/mult8_syn_48.clk;
+ |    |    |    63: (lslice) lsm_top/fir_dut/reg10_syn_178.clk;
+ |    |    |    64: (lslice) lsm_top/coef_update_dut/reg24_syn_72.clk;
+ |    |    |    65: (lslice) lsm_top/fir_dut/reg10_syn_155.clk;
+ |    |    |    66: (lslice) lsm_top/coef_update_dut/add7_syn_85.clk;
+ |    |    |    67: (lslice) lsm_top/coef_update_dut/add7_syn_86.clk;
+ |    |    |    68: (lslice) lsm_top/coef_update_dut/add7_syn_87.clk;
+ |    |    |    69: (lslice) lsm_top/coef_update_dut/add7_syn_88.clk;
+ |    |    |    70: (lslice) lsm_top/coef_update_dut/add7_syn_89.clk;
+ |    |    |    71: (lslice) lsm_top/coef_update_dut/add7_syn_90.clk;
+ |    |    |    72: (lslice) lsm_top/coef_update_dut/add7_syn_91.clk;
+ |    |    |    73: (lslice) lsm_top/coef_update_dut/add7_syn_92.clk;
+ |    |    |    74: (lslice) lsm_top/coef_update_dut/add7_syn_93.clk;
+ |    |    |    75: (lslice) lsm_top/coef_update_dut/add7_syn_94.clk;
+ |    |    |    76: (lslice) lsm_top/coef_update_dut/add7_syn_95.clk;
+ |    |    |    77: (lslice) lsm_top/coef_update_dut/add7_syn_96.clk;
+ |    |    |    78: (lslice) lsm_top/coef_update_dut/add7_syn_97.clk;
+ |    |    |    79: (lslice) lsm_top/coef_update_dut/add7_syn_98.clk;
+ |    |    |    80: (lslice) lsm_top/coef_update_dut/add7_syn_100.clk;
+ |    |    |    81: (lslice) lsm_top/coef_update_dut/reg23_syn_74.clk;
+ |    |    |    82: (lslice) lsm_top/coef_update_dut/reg24_syn_69.clk;
+ |    |    |    83: (lslice) lsm_top/fir_dut/add5_syn_206.clk;
+ |    |    |    84: (lslice) lsm_top/coef_update_dut/reg23_syn_71.clk;
+ |    |    |    85: (lslice) lsm_top/coef_update_dut/reg26_syn_70.clk;
+ |    |    |    86: (lslice) lsm_top/coef_update_dut/reg26_syn_61.clk;
+ |    |    |    87: (lslice) lsm_top/coef_update_dut/reg23_syn_68.clk;
+ |    |    |    88: (lslice) lsm_top/fir_dut/add5_syn_208.clk;
+ |    |    |    89: (lslice) lsm_top/coef_update_dut/reg23_syn_76.clk;
+ |    |    |    90: (lslice) lsm_top/coef_update_dut/reg23_syn_66.clk;
+ |    |    |    91: (lslice) lsm_top/coef_update_dut/reg23_syn_63.clk;
+ |    |    |    92: (lslice) lsm_top/fir_dut/add5_syn_207.clk;
+ |    |    |    93: (lslice) lsm_top/coef_update_dut/reg24_syn_67.clk;
+ |    |    |    94: (lslice) lsm_top/coef_update_dut/reg23_syn_60.clk;
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_l
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:

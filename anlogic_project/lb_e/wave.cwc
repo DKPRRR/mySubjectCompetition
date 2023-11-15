@@ -1,0 +1,26 @@
+<chipwatcher project_name="fpga_prj" bit_file="fpga_prj_Runs/phy_1/fpga_prj.bit" bid_file="fpga_prj_Runs/phy_1/fpga_prj_inst.bid" chip_name="PH1A90SBG484">
+<!-- HMAC is: 6c63996b9fd3f4240cca5520033acdf9a8e290aa7e65cec5106bfccc9f0e4075 -->
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="u_mypll/clk0_out" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="1024"/>
+		<signal_vec>
+			<data_nets>
+				<net name="O_up_led[0]"/>
+				<net name="O_up_led[1]"/>
+			</data_nets>
+			<watcher_nodes>
+				<group name="O_up_led" radix="bin" state="collapse" op="equal" type="output">
+					<net name="O_up_led[1]" type="reg" trigger="enable"/>
+					<net name="O_up_led[0]" type="reg" trigger="enable"/>
+				</group>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				O_up_led[0] == high && O_up_led[1] == high
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

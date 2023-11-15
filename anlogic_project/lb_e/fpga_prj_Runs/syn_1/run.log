@@ -1,0 +1,704 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/FPGA/TD/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     Ar'p
+   Run Date =   Thu Nov 16 02:28:11 2023
+
+   Run on =     LAPTOP-LQHTMQCN
+============================================================
+RUN-1002 : start command "open_project fpga_prj.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1002 : start command "set_param rtl rtl_sim_model on"
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |     on     |       off        |   *    
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../lms/div.v
+HDL-1007 : analyze verilog file ../../ad/al_ip/mypll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../ad/al_ip/mypll.v(92)
+HDL-1007 : analyze verilog file ../../uart/al_ip/UART_gate.v
+HDL-1007 : analyze verilog file ../../ad/ad7266.v
+HDL-1007 : analyze verilog file ../../top.v
+HDL-1007 : analyze verilog file ../../lms/coef_update.v
+HDL-1007 : analyze verilog file ../../lms/error_calcu.v
+HDL-1007 : analyze verilog file ../../lms/fir.v
+HDL-1007 : analyze verilog file ../../lms/lsm_top.v
+HDL-1007 : analyze verilog file ../../uart/uart_top.v
+HDL-1007 : undeclared symbol 'clkI160', assumed default net type 'wire' in ../../uart/uart_top.v(15)
+HDL-7007 CRITICAL-WARNING: 'clkI160' is already implicitly declared on line 15 in ../../uart/uart_top.v(30)
+HDL-1007 : analyze verilog file ../../shift/change.v
+HDL-1007 : analyze verilog file ../../ad/ad_top.v
+RUN-1001 : Project manager successfully analyzed 12 source files.
+RUN-1002 : start command "import_device ph1_90.db -package PH1A90SBG484 -speed 2"
+ARC-1001 : Device Initialization.
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :           OPTION          |        IO        |   SETTING   
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |      36 IOs      |    gpio    
+ARC-1001 :            jtag           |  M7/K7/L6/K6/J6  |  dedicate  
+ARC-1001 : -----------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_90.db -package PH1A90SBG484 -speed 2" in  11.366486s wall, 4.609375s user + 0.171875s system = 4.781250s CPU (42.1%)
+
+RUN-1004 : used memory is 812 MB, reserved memory is 814 MB, peak memory is 812 MB
+RUN-1002 : start command "elaborate -top top"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1002 : start command "set_param rtl rtl_sim_model on"
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |     on     |       off        |   *    
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : port 'sck_test' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'A2_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'B2_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'A3_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'B3_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'A4_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'B4_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'A5_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'B5_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'A6_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : port 'B6_Result' remains unconnected for this instance in ../../top.v(32)
+HDL-1007 : elaborate module top in ../../top.v(1)
+HDL-1007 : elaborate module mypll in ../../ad/al_ip/mypll.v(24)
+HDL-1007 : elaborate module PH1_LOGIC_BUFG in D:/FPGA/TD/arch/ph1_macro.v(10602)
+HDL-1007 : elaborate module PH1_PHY_PLL(CLKC0_CPHASE=63,CLKC1_CPHASE=122,CLKC2_CPHASE=49,CLKC0_DIV=64,CLKC1_DIV=123,CLKC2_DIV=50,CLKC0_DUTY_INT=32,CLKC1_DUTY_INT=62,CLKC2_DUTY_INT=25,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FIN="25.000",PLL_FEED_TYPE="EXTERNAL",LPF_RES=3,ICP_CUR=11,GMC_GAIN=1,INTPI=2,SSC_RNGE=0) in D:/FPGA/TD/arch/ph1_macro.v(624)
+HDL-1007 : port 'AD_RANGE' remains unconnected for this instance in ../../ad/ad_top.v(41)
+HDL-1007 : port 'AD_DIFF' remains unconnected for this instance in ../../ad/ad_top.v(41)
+HDL-1007 : elaborate module ad_top in ../../ad/ad_top.v(1)
+HDL-1007 : elaborate module AD7266_Read in ../../ad/ad7266.v(1)
+HDL-1007 : elaborate module change in ../../shift/change.v(1)
+HDL-1007 : elaborate module lsm_top in ../../lms/lsm_top.v(1)
+HDL-1007 : elaborate module div(N=20'b0101000) in ../../lms/div.v(1)
+HDL-7007 CRITICAL-WARNING: invert of if-condition matches sensitivity list edge; this is unconventional in ../../lms/div.v(9)
+HDL-1007 : elaborate module fir in ../../lms/fir.v(1)
+HDL-1007 : elaborate module error_calcu in ../../lms/error_calcu.v(1)
+HDL-1007 : elaborate module coef_update in ../../lms/coef_update.v(1)
+HDL-5007 WARNING: port 'rxd' is not connected on this instance in ../../uart/uart_top.v(10)
+HDL-1007 : port 'rx_data' remains unconnected for this instance in ../../uart/uart_top.v(10)
+HDL-1007 : port 'rx_err' remains unconnected for this instance in ../../uart/uart_top.v(10)
+HDL-1007 : port 'rx_vld' remains unconnected for this instance in ../../uart/uart_top.v(10)
+HDL-1007 : elaborate module uart_top in ../../uart/uart_top.v(1)
+HDL-1007 : elaborate module UART in ../../uart/al_ip/UART_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b01,EQN="(~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0110,EQN="(~C*(B@A))") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01111000,EQN="(~D*(C@(B*A)))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_DFF_X in D:/FPGA/TD/arch/al_lmacro.v(236)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111110111111111111101011111010,EQN="(~F*~(~C*~A*~(E*~(D*~B))))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0110,EQN="(B@A)") in D:/FPGA/TD/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111111000000000,EQN="(D*~(~C*~B*~A))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01111000,EQN="(C@(B*A))") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010000,EQN="(C*~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111111110000000,EQN="(D@(C*B*A))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000011100000,EQN="(C*~(~D*~B*~A))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111000000000111111110000000011111010000000001111101000000000,EQN="(D*~(~C*~A*~(F*~(E*~B))))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111111111111000000000000000,EQN="(E@(D*C*B*A))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010100000000010000000101010100010101010101010100000000000000000,EQN="(A*(E@(F*~(D@(~C*~B)))))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0101000,EQN="(A*(C@B))") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101010000000,EQN="(A*(D@(C*B)))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010101010101000000000000000,EQN="(A*(E@(D*C*B)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010101010101010101010101010101010000000000000000000000000000000,EQN="(A*(F@(E*D*C*B)))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111101010111,EQN="(~E*~(~D*A*~(~C*~B)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011110000000000000000000000000,EQN="(E*D*~(C@(~B*~A)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111111111111111111111111111110000000000000000000000000000000,EQN="(F@(E*D*C*B*A))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1000,EQN="(B*A)") in D:/FPGA/TD/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011100000000000000000,EQN="(E*~D*~C*~(~B*~A))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000,EQN="(~D*~C*B*A)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01100110011001110,EQN="(~E*~(~B*~(~D*~C*A)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11101010,EQN="~(~A*~(C*B))") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0100,EQN="(B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000000000000010000000000000000000,EQN="(E*~D*A*(B*~(C)*~(F)+~(B)*C*F))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010111001100110011000000000000000000,EQN="(B*~((~D*~C*~A))*E*~(F)+B*(~D*~C*~A)*E*~(F)+~(B)*(~D*~C*~A)*~(E)*F+B*(~D*~C*~A)*~(E)*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111110000000000000000000,EQN="(E*~(~D*~C*~(B*A)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011000000000000001000000000,EQN="(D*~C*~B*~(~E*~A))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10101000,EQN="(A*~(~C*~B))") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000,EQN="(D*~C*~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01,EQN="(~C*~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001000100010001000100000001000,EQN="(B*A*~(~E*~D*C))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000000000000000000000,EQN="(F*~E*D*~C*~B*A)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01,EQN="(~D*~C*~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111111111111110000000010000000,EQN="(~F*~(~E*~(~D*C*B*A)))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000000000,EQN="(D*C*B*A)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010100000000110000000000000000000101000011111100,EQN="(~E*(~(A)*B*~(C)*~(D)*~(F)+A*B*~(C)*~(D)*~(F)+~(A)*~(B)*C*~(D)*~(F)+A*~(B)*C*~(D)*~(F)+~(A)*B*C*~(D)*~(F)+A*B*C*~(D)*~(F)+~(A)*~(B)*C*D*~(F)+~(A)*B*C*D*~(F)+~(A)*B*~(C)*~(D)*F+A*B*~(C)*~(D)*F+~(A)*~(B)*C*D*F+~(A)*B*C*D*F))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000000,EQN="(C*B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11111110,EQN="~(~C*~B*~A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111111111111100000000000000001011100000000000,EQN="(~E*~(~F*~(D*(C*~(A)*~(B)+C*A*~(B)+~(C)*A*B+C*A*B))))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101000011011100,EQN="(~E*~(~(~D*B)*~(C*~A)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000000,EQN="(C*B*A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011100,EQN="(~D*(~(A)*B*~(C)+A*B*~(C)+~(A)*~(B)*C))") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101000000000000110000000,EQN="(A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+A*~(B)*C*~(D)*E+A*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E)") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011000100110010001100000011,EQN="(~B*~(C*~(E*~(D)*~(A)+E*D*~(A)+~(E)*D*A+E*D*A)))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000001100010011,EQN="(~B*(~E*~((~D*~A))*~(C)+~E*(~D*~A)*~(C)+~(~E)*(~D*~A)*C+~E*(~D*~A)*C))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010,EQN="(~F*~E*~D*~C*~B*A)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111000001111111111111111111111111110111111111111,EQN="(~((~B*~A))*~(C)*~(D)*~(E)*~(F)+(~B*~A)*~(C)*~(D)*~(E)*~(F)+~((~B*~A))*C*~(D)*~(E)*~(F)+(~B*~A)*C*~(D)*~(E)*~(F)+~((~B*~A))*~(C)*D*~(E)*~(F)+(~B*~A)*~(C)*D*~(E)*~(F)+~((~B*~A))*C*D*~(E)*~(F)+~((~B*~A))*~(C)*~(D)*E*~(F)+(~B*~A)*~(C)*~(D)*E*~(F)+~((~B*~A))*C*~(D)*E*~(F)+(~B*~A)*C*~(D)*E*~(F)+~((~B*~A))*~(C)*D*E*~(F)+(~B*~A)*~(C)*D*E*~(F)+~((~B*~A))*C*D*E*~(F)+(~B*~A)*C*D*E*~(F)+~((~B*~A))*~(C)*~(D)*~(E)*F+(~B*~A)*~(C)*~(D)*~(E)*F+~((~B*~A))*C*~(D)*~(E)*F+(~B*~A)*C*~(D)*~(E)*F+~((~B*~A))*C*D*~(E)*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110011001100111111001100110011001100111011101110111011,EQN="~(B*~(~E*(A*~((~D*C))*~(F)+A*(~D*C)*~(F)+~(A)*(~D*C)*F+A*(~D*C)*F)))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111110001000100110001000000000000000001000100110001000000,EQN="(~(A)*B*C*~(D)*~(E)*~(F)+~(A)*B*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111110101010100111111010111010000000000001000000000000000000000,EQN="(A*~(B)*C*~(D)*E*~(F)+~(A)*B*~(C)*~(D)*~(E)*F+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*B*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111110101010101110101000000000000000000000000100000000000,EQN="(A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+~(A)*B*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111110011001101110011000000000000000000000000100000000000,EQN="(A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+A*~(B)*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0110100110010110100101100110100110010110011010010110100110010110,EQN="(F@E@D@C@B@A)") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1011111101111111011111111011111110000000010000000100000010000000,EQN="(F*~((E@D@A))*~((C*B))+F*(E@D@A)*~((C*B))+~(F)*(E@D@A)*(C*B)+F*(E@D@A)*(C*B))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010101010101010101000,EQN="(A*~(~E*~D*~C*~B))") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100111011001100110011001100000000000010100000000000000000,EQN="~(~(F*~B)*~(E*~D*~C*A))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000100000101000000100000111000000011000011110000,EQN="(C*(~(A)*~(B)*~(D)*~(E)*~(F)+A*~(B)*~(D)*~(E)*~(F)+~(A)*B*~(D)*~(E)*~(F)+A*B*~(D)*~(E)*~(F)+~(A)*~(B)*D*~(E)*~(F)+A*~(B)*D*~(E)*~(F)+A*~(B)*~(D)*E*~(F)+~(A)*B*~(D)*E*~(F)+A*B*~(D)*E*~(F)+A*~(B)*D*E*~(F)+~(A)*~(B)*~(D)*~(E)*F+~(A)*B*~(D)*~(E)*F+~(A)*~(B)*D*~(E)*F+~(A)*B*~(D)*E*F))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101010101000000000100010101010101000101010000000000000101,EQN="(~A*(~(B)*~(C)*~(D)*~(E)*~(F)+B*~(C)*~(D)*~(E)*~(F)+~(B)*~(C)*~(D)*E*~(F)+B*~(C)*~(D)*E*~(F)+~(B)*C*~(D)*E*~(F)+~(B)*~(C)*D*E*~(F)+B*~(C)*D*E*~(F)+~(B)*C*D*E*~(F)+B*C*D*E*~(F)+~(B)*~(C)*~(D)*~(E)*F+B*~(C)*~(D)*~(E)*F+B*C*~(D)*~(E)*F+~(B)*~(C)*~(D)*E*F+B*~(C)*~(D)*E*F+~(B)*C*~(D)*E*F+B*C*~(D)*E*F+~(B)*~(C)*D*E*F+B*~(C)*D*E*F+~(B)*C*D*E*F+B*C*D*E*F))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100000,EQN="(C*~B*A)") in D:/FPGA/TD/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111001101010000000000000101,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+~(A)*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in D:/FPGA/TD/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000100010001000100010001000100010001000100010001000100010000000,EQN="(B*A*~(~F*~E*~D*~C))") in D:/FPGA/TD/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000,EQN="(D*~C*~B*A)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010111000111111,EQN="~((D*~A)*~(C)*~(B)+(D*~A)*C*~(B)+~((D*~A))*C*B+(D*~A)*C*B)") in D:/FPGA/TD/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module div(N=20'b010000) in ../../lms/div.v(1)
+HDL-7007 CRITICAL-WARNING: invert of if-condition matches sensitivity list edge; this is unconventional in ../../lms/div.v(9)
+HDL-1007 : elaborate module div(N=20'b010100000) in ../../lms/div.v(1)
+HDL-7007 CRITICAL-WARNING: invert of if-condition matches sensitivity list edge; this is unconventional in ../../lms/div.v(9)
+HDL-5007 WARNING: input port 'rxd' remains unconnected for this instance in ../../uart/uart_top.v(10)
+HDL-5007 WARNING: actual bit length 20 differs from formal bit length 16 for port 'data' in ../../top.v(70)
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "export_db fpga_prj_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_adc ../../fpga_pin.adc"
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[0]   LOCATION = D19; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[0]   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[0]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[0]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[1]   LOCATION = J17; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[1]   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[1]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[1]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[2]   LOCATION = J16; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[2]   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[2]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  AD_A2_A0[2]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CS   LOCATION = D20; "
+RUN-1002 : start command "set_pin_assignment  CS   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  CS   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  CS   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  RD_DONE   LOCATION = T6; "
+RUN-1002 : start command "set_pin_assignment  RD_DONE   IOSTANDARD = LVCMOS18; "
+RUN-1002 : start command "set_pin_assignment  RD_DONE   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  RD_DONE   PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SCK   LOCATION = B18; "
+RUN-1002 : start command "set_pin_assignment  SCK   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SCK   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  SCK   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[0]   LOCATION = G11; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[0]   IOSTANDARD = LVCMOS18; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[0]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[0]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[1]   LOCATION = G10; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[1]   IOSTANDARD = LVCMOS18; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[1]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[1]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[2]   LOCATION = H12; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[2]   IOSTANDARD = LVCMOS18; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[2]   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  Vdd_fmc_adj[2]   PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  adAIn   LOCATION = B15; "
+RUN-1002 : start command "set_pin_assignment  adAIn   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  adAIn   PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  adBIn   LOCATION = A19; "
+RUN-1002 : start command "set_pin_assignment  adBIn   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  adBIn   PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  clkSorce   LOCATION = N18; "
+RUN-1002 : start command "set_pin_assignment  clkSorce   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  clkSorce   PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  resetSorce   LOCATION = K4; "
+RUN-1002 : start command "set_pin_assignment  resetSorce   IOSTANDARD = LVCMOS18; "
+RUN-1002 : start command "set_pin_assignment  resetSorce   PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  txd   LOCATION = R22; "
+RUN-1002 : start command "set_pin_assignment  txd   IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  txd   DRIVESTRENGTH = 8; "
+RUN-1002 : start command "set_pin_assignment  txd   PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/FPGA/TD/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1002 : start command "set_param rtl rtl_sim_model on"
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |     on     |       off        |   *    
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "top"
+SYN-1012 : SanityCheck: Model "ad_top"
+SYN-1012 : SanityCheck: Model "AD7266_Read"
+SYN-1012 : SanityCheck: Model "change"
+SYN-1012 : SanityCheck: Model "lsm_top"
+SYN-1012 : SanityCheck: Model "coef_update"
+SYN-1012 : SanityCheck: Model "div(N=20'b0101000)"
+SYN-1012 : SanityCheck: Model "error_calcu"
+SYN-1012 : SanityCheck: Model "fir"
+SYN-1012 : SanityCheck: Model "mypll"
+SYN-1012 : SanityCheck: Model "uart_top"
+SYN-1012 : SanityCheck: Model "UART"
+SYN-1012 : SanityCheck: Model "AL_DFF_X"
+SYN-1012 : SanityCheck: Model "div(N=20'b010000)"
+SYN-1012 : SanityCheck: Model "div(N=20'b010100000)"
+SYN-1043 : Mark mypll as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model top
+SYN-1032 : 3985/1713 useful/useless nets, 556/426 useful/useless insts
+SYN-1016 : Merged 162 instances.
+SYN-1032 : 3692/267 useful/useless nets, 440/88 useful/useless insts
+SYN-1016 : Merged 366 instances.
+SYN-5011 WARNING: Undriven pin: model "top" / inst "lsm_top/fir_dut/reg0_syn_10" in ../../lms/fir.v(127) / pin "d"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 3325/36 useful/useless nets, 2059/116 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1032 : 2755/570 useful/useless nets, 1774/285 useful/useless insts
+SYN-1017 : Remove 10 const input seq instances
+SYN-1002 :     ad_top/u_AD7266/reg19_syn_10
+SYN-1002 :     lsm_top/coef_update_dut/reg11_syn_48
+SYN-1002 :     lsm_top/error_calcu_dut/reg1_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg2_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg3_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg4_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg5_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg6_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg7_syn_11
+SYN-1002 :     lsm_top/error_calcu_dut/reg8_syn_11
+SYN-1021 : Optimized 1 onehot mux instances.
+SYN-1020 : Optimized 126 distributor mux.
+SYN-1001 : Optimize 1 less-than instances
+SYN-1016 : Merged 270 instances.
+SYN-1015 : Optimize round 1, 1477 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1032 : 2629/8 useful/useless nets, 1668/91 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     ad_top/u_AD7266/reg12_syn_2
+SYN-1015 : Optimize round 2, 115 better
+SYN-1032 : 2616/11 useful/useless nets, 1655/12 useful/useless insts
+SYN-3004 : Optimized 15 const0 DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 2 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-1032 : 2556/60 useful/useless nets, 1615/1 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 22 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+RUN-1003 : finish command "optimize_rtl" in  1.137036s wall, 0.578125s user + 0.109375s system = 0.687500s CPU (60.5%)
+
+RUN-1004 : used memory is 846 MB, reserved memory is 844 MB, peak memory is 850 MB
+RUN-1002 : start command "write_verilog simulation/fpga_prj_rtl_sim.v"
+HDL-1201 : write out verilog file simulation/fpga_prj_rtl_sim.v
+RUN-1003 : finish command "write_verilog simulation/fpga_prj_rtl_sim.v" in  3.994631s wall, 1.562500s user + 0.015625s system = 1.578125s CPU (39.5%)
+
+RUN-1004 : used memory is 847 MB, reserved memory is 844 MB, peak memory is 850 MB
+RUN-1002 : start command "report_area -file fpga_prj_rtl.area"
+RUN-1001 : standard
+***Report Model: top Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        14
+  #input                    4
+  #output                  10
+  #inout                    0
+
+Gate Statistics
+#Basic gates             1414
+  #and                     51
+  #nand                     0
+  #or                       3
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     33
+  #bufif1                   0
+  #MX21                    69
+  #FADD                     0
+  #DFF                   1258
+  #LATCH                    0
+#MACRO_ADD                 32
+#MACRO_EQ                   8
+#MACRO_MULT                19
+#MACRO_MUX                 29
+#MACRO_OTHERS               1
+
+LUT Statistics
+#Total_luts                44
+  #lut4                    13
+  #lut5                     6
+  #lut6                    25
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Report Hierarchy Area:
++---------------------------------------------------------+
+|Instance            |Module      |gates  |seq    |macros |
++---------------------------------------------------------+
+|top                 |top         |156    |1258   |60     |
+|  ad_top            |ad_top      |138    |80     |14     |
+|    u_AD7266        |AD7266_Read |138    |80     |14     |
+|  change            |change      |13     |0      |4      |
+|  lsm_top           |lsm_top     |1      |1127   |39     |
+|    coef_update_dut |coef_update |0      |414    |19     |
+|    div40           |div         |1      |22     |2      |
+|    error_calcu_dut |error_calcu |0      |9      |1      |
+|    fir_dut         |fir         |0      |682    |17     |
+|  mypll             |mypll       |0      |0      |1      |
+|  uart_top          |uart_top    |3      |51     |2      |
+|    UART            |UART        |0      |21     |0      |
+|    div160          |div         |1      |22     |2      |
++---------------------------------------------------------+
+
+RUN-1002 : start command "export_db fpga_prj_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "optimize_gate -mapsim simulation/fpga_prj_map_sim.v -packsim simulation/fpga_prj_gate_sim.v -maparea fpga_prj_gate.area"
+RUN-1001 : Open license file D:/FPGA/TD/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1002 : start command "set_param gate gate_sim_model on"
+RUN-1002 : start command "set_param gate map_sim_model on"
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |     on     |       off        |   *    
+RUN-1001 :        map_sim_model        |     on     |       off        |   *    
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2001 : Map 14 IOs to PADs
+RUN-1002 : start command "update_pll_param -module top"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 1 BUFG to GCLK
+SYN-2571 : Map 19 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 2536/585 useful/useless nets, 1470/144 useful/useless insts
+SYN-1016 : Merged 24 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 591 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1032 : 1804/564 useful/useless nets, 998/444 useful/useless insts
+SYN-1032 : 1954/39 useful/useless nets, 959/39 useful/useless insts
+SYN-1001 : Throwback 13 control mux instances
+SYN-1001 : Convert 1 adder
+TMR-5018 WARNING: No timing constraints available. Please specify timing constraints first.
+SYN-2501 : Optimize round 1
+SYN-1032 : 2009/0 useful/useless nets, 1014/13 useful/useless insts
+SYN-1016 : Merged 10 instances.
+SYN-2501 : Optimize round 1, 98 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 28 macro adder
+SYN-3001 : Mapper mapped 24 instances into 4 LUTs, name keeping = 75%.
+SYN-1016 : Merged 123 instances.
+SYN-1032 : 2468/83 useful/useless nets, 1495/9 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=6, #lut = 167 (4.16), #lev = 4 (1.84)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=6, #lut = 164 (3.94), #lev = 3 (2.02)
+SYN-3001 : Logic optimization runtime opt =   0.01 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 370 instances into 168 LUTs, name keeping = 78%.
+RUN-1002 : start command "write_verilog simulation/fpga_prj_map_sim.v"
+HDL-1201 : write out verilog file simulation/fpga_prj_map_sim.v
+RUN-1003 : finish command "write_verilog simulation/fpga_prj_map_sim.v" in  1.693666s wall, 0.812500s user + 0.000000s system = 0.812500s CPU (48.0%)
+
+RUN-1004 : used memory is 864 MB, reserved memory is 860 MB, peak memory is 886 MB
+RUN-1002 : start command "report_area -file fpga_prj_gate.area"
+RUN-1001 : standard
+***Report Model: top Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        14
+  #input                    4
+  #output                  10
+  #inout                    0
+
+Utilization Statistics
+#lut                      600
+  #lut1                     4
+  #lut2                    32
+  #lut3                    53
+  #lut4                    35
+  #lut5                    26
+  #lut6                    62
+  #1-bit adder            388
+#reg                      607   out of 128640    0.47%
+  #dff                    607
+  #latch                    0
+#f7mux                      0   out of  32160    0.00%
+#f8mux                      0   out of  16080    0.00%
+#dsp                       19   out of    240    7.92%
+#eram                       0   out of    272    0.00%
+  #eram20k                  0
+  #fifo20k                  0
+#pad                       14   out of    260    5.38%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of     12    8.33%
+#pcie                       0   out of      1    0.00%
+#serdes                     0   out of      2    0.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance            |Module      |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |f7mux   |f8mux   |pll     |serdes  |pcie    |ddr     |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                 |top         |212     |388     |607     |0       |19      |0       |0       |0       |0       |1       |0       |0       |0       |
+|  ad_top            |ad_top      |123     |0       |80      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AD7266        |AD7266_Read |123     |0       |80      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  change            |change      |21      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  lsm_top           |lsm_top     |8       |366     |476     |0       |19      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    coef_update_dut |coef_update |0       |153     |270     |0       |10      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    div40           |div         |8       |22      |22      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    error_calcu_dut |error_calcu |0       |48      |9       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    fir_dut         |fir         |0       |143     |175     |0       |9       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  mypll             |mypll       |0       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  uart_top          |uart_top    |60      |22      |51      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    UART            |UART        |45      |0       |21      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    div160          |div         |8       |22      |22      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "top" ...
+SYN-4010 : Pack lib has 86 rtl pack models with 57 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 607 DFF/LATCH to SEQ ...
+SYN-1001 : Remove 18 carry adders
+SYN-4009 : Pack 18 carry chain into lslice
+SYN-4012 : Packed 0 FxMUX
+RUN-1002 : start command "write_verilog simulation/fpga_prj_gate_sim.v"
+HDL-1201 : write out verilog file simulation/fpga_prj_gate_sim.v
+RUN-1003 : finish command "write_verilog simulation/fpga_prj_gate_sim.v" in  2.112928s wall, 0.890625s user + 0.000000s system = 0.890625s CPU (42.2%)
+
+RUN-1004 : used memory is 876 MB, reserved memory is 872 MB, peak memory is 886 MB
+RUN-1003 : finish command "optimize_gate -mapsim simulation/fpga_prj_map_sim.v -packsim simulation/fpga_prj_gate_sim.v -maparea fpga_prj_gate.area" in  4.253552s wall, 1.875000s user + 0.015625s system = 1.890625s CPU (44.4%)
+
+RUN-1004 : used memory is 876 MB, reserved memory is 872 MB, peak memory is 886 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model top
+SYN-1032 : 2560/0 useful/useless nets, 1273/2 useful/useless insts
+RUN-1002 : start command "export_db fpga_prj_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20231116_022811.log"
+RUN-1001 : Backing up run's log file succeed.

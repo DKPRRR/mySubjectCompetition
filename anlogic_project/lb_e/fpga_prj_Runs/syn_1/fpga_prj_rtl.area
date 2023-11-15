@@ -1,0 +1,56 @@
+standard
+***Report Model: top Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        14
+  #input                    4
+  #output                  10
+  #inout                    0
+
+Gate Statistics
+#Basic gates             1414
+  #and                     51
+  #nand                     0
+  #or                       3
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     33
+  #bufif1                   0
+  #MX21                    69
+  #FADD                     0
+  #DFF                   1258
+  #LATCH                    0
+#MACRO_ADD                 32
+#MACRO_EQ                   8
+#MACRO_MULT                19
+#MACRO_MUX                 29
+#MACRO_OTHERS               1
+
+LUT Statistics
+#Total_luts                44
+  #lut4                    13
+  #lut5                     6
+  #lut6                    25
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Report Hierarchy Area:
++---------------------------------------------------------+
+|Instance            |Module      |gates  |seq    |macros |
++---------------------------------------------------------+
+|top                 |top         |156    |1258   |60     |
+|  ad_top            |ad_top      |138    |80     |14     |
+|    u_AD7266        |AD7266_Read |138    |80     |14     |
+|  change            |change      |13     |0      |4      |
+|  lsm_top           |lsm_top     |1      |1127   |39     |
+|    coef_update_dut |coef_update |0      |414    |19     |
+|    div40           |div         |1      |22     |2      |
+|    error_calcu_dut |error_calcu |0      |9      |1      |
+|    fir_dut         |fir         |0      |682    |17     |
+|  mypll             |mypll       |0      |0      |1      |
+|  uart_top          |uart_top    |3      |51     |2      |
+|    UART            |UART        |0      |21     |0      |
+|    div160          |div         |1      |22     |2      |
++---------------------------------------------------------+

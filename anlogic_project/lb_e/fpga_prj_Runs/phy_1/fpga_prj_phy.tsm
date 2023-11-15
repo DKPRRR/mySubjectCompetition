@@ -1,0 +1,190 @@
+ph1_90
+13 597 23 319 1332 19642360 0 0
+7.173 0.141 top ph1_90 PH1A90SBG484 Detail 2 23 1
+clock: DeriveClock
+13 19642360 1332 2
+Setup check
+23 3
+Endpoint: ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+23 7.173000 12 3
+Timing path: ad_top/u_AD7266/reg20_syn_22.clk->ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+ad_top/u_AD7266/reg20_syn_22.clk
+ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+25 7.173000 9.775000 2.602000 3 3
+ad_top/u_AD7266/count_SCK[3] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ic
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id
+ad_top/u_AD7266/A1B1_Result_b2_n105 ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+57 7.513000 9.775000 2.262000 3 3
+ad_top/u_AD7266/count_SCK[4] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ib
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id
+ad_top/u_AD7266/A1B1_Result_b2_n105 ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4
+89 7.519000 9.775000 2.256000 3 3
+ad_top/u_AD7266/count_SCK[5] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ia
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id
+ad_top/u_AD7266/A1B1_Result_b2_n105 ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia
+
+
+Endpoint: ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+121 7.191000 12 3
+Timing path: ad_top/u_AD7266/reg20_syn_22.clk->ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+ad_top/u_AD7266/reg20_syn_22.clk
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+123 7.191000 9.775000 2.584000 3 3
+ad_top/u_AD7266/count_SCK[3] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ic
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf
+ad_top/u_AD7266/A1B1_Result_b2_n106 ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+155 7.531000 9.775000 2.244000 3 3
+ad_top/u_AD7266/count_SCK[4] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ib
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf
+ad_top/u_AD7266/A1B1_Result_b2_n106 ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9
+187 7.537000 9.775000 2.238000 3 3
+ad_top/u_AD7266/count_SCK[5] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ia
+ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9 ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf
+ad_top/u_AD7266/A1B1_Result_b2_n106 ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia
+
+
+Endpoint: ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+219 7.273000 12 3
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+221 7.273000 9.775000 2.502000 3 3
+ad_top/u_AD7266/count_SCK[4] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ib
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5 ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia
+ad_top/u_AD7266/A1B1_Result_b2_n89 ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_22.clk->ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+ad_top/u_AD7266/reg20_syn_22.clk
+ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+253 7.578000 9.775000 2.197000 3 3
+ad_top/u_AD7266/count_SCK[3] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ic
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5 ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia
+ad_top/u_AD7266/A1B1_Result_b2_n89 ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia
+
+Timing path: ad_top/u_AD7266/reg20_syn_25.clk->ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+ad_top/u_AD7266/reg20_syn_25.clk
+ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4
+285 7.626000 9.775000 2.149000 3 3
+ad_top/u_AD7266/count_SCK[5] ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ia
+ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5 ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia
+ad_top/u_AD7266/A1B1_Result_b2_n89 ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia
+
+
+
+Hold check
+317 3
+Endpoint: lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+319 0.141000 4455 3
+Timing path: lsm_top/fir_dut/mult4_syn_48/M_reg.clk->lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+lsm_top/fir_dut/mult4_syn_48/M_reg.clk
+lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+321 0.141000 0.001000 0.142000 2 2
+M_reg_syn_1036[44] lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_109[53] lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[53]
+
+Timing path: lsm_top/fir_dut/mult4_syn_48/M_reg.clk->lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+lsm_top/fir_dut/mult4_syn_48/M_reg.clk
+lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+351 0.141000 0.001000 0.142000 2 2
+M_reg_syn_1036[44] lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_109[52] lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[52]
+
+Timing path: lsm_top/fir_dut/mult4_syn_48/M_reg.clk->lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+lsm_top/fir_dut/mult4_syn_48/M_reg.clk
+lsm_top/fir_dut/mult4_syn_48/POU_p_reg
+381 0.141000 0.001000 0.142000 2 2
+M_reg_syn_1036[44] lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_109[51] lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[51]
+
+
+Endpoint: lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+411 0.141000 4455 3
+Timing path: lsm_top/fir_dut/mult2_syn_48/M_reg.clk->lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+lsm_top/fir_dut/mult2_syn_48/M_reg.clk
+lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+413 0.141000 0.001000 0.142000 2 2
+M_reg_syn_946[44] lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_55[53] lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[53]
+
+Timing path: lsm_top/fir_dut/mult2_syn_48/M_reg.clk->lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+lsm_top/fir_dut/mult2_syn_48/M_reg.clk
+lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+443 0.141000 0.001000 0.142000 2 2
+M_reg_syn_946[44] lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_55[52] lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[52]
+
+Timing path: lsm_top/fir_dut/mult2_syn_48/M_reg.clk->lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+lsm_top/fir_dut/mult2_syn_48/M_reg.clk
+lsm_top/fir_dut/mult2_syn_48/POU_p_reg
+473 0.141000 0.001000 0.142000 2 2
+M_reg_syn_946[44] lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_55[51] lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[51]
+
+
+Endpoint: lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+503 0.141000 4455 3
+Timing path: lsm_top/fir_dut/mult0_syn_48/M_reg.clk->lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+lsm_top/fir_dut/mult0_syn_48/M_reg.clk
+lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+505 0.141000 0.001000 0.142000 2 2
+M_reg_syn_856[44] lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_1[53] lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[53]
+
+Timing path: lsm_top/fir_dut/mult0_syn_48/M_reg.clk->lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+lsm_top/fir_dut/mult0_syn_48/M_reg.clk
+lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+535 0.141000 0.001000 0.142000 2 2
+M_reg_syn_856[44] lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_1[52] lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[52]
+
+Timing path: lsm_top/fir_dut/mult0_syn_48/M_reg.clk->lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+lsm_top/fir_dut/mult0_syn_48/M_reg.clk
+lsm_top/fir_dut/mult0_syn_48/POU_p_reg
+565 0.141000 0.001000 0.142000 2 2
+M_reg_syn_856[44] lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45]
+POU_p_reg_syn_1[51] lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[51]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  DeriveClock (50.0MHz)                          5.654ns     176.866MHz        0.000ns       529        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 15 clock net(s): 
+	SCK_dup_3
+	SCK_syn_5
+	ad_top/u_AD7266/spi_clk
+	ad_top/u_AD7266/spi_clk_syn_3
+	ad_top/u_AD7266/sys_clk
+	clkSorce_dup_1
+	lsm_top/coef_update_dut/clk_i
+	lsm_top/coef_update_dut/clk_i_syn_3
+	lsm_top/div40/clk
+	lsm_top/div40/clk_syn_1
+	mypll/clk0_buf
+	uart_top/UART/clk
+	uart_top/UART/clk_syn_1
+	uart_top/clkI160
+	uart_top/clkI160_syn_3
+

@@ -1,0 +1,629 @@
+=========================================================================================================
+Auto created by Tang Dynasty v5.6.71036
+   Copyright (c) 2012-2023 Anlogic Inc.
+Thu Nov 16 02:29:26 2023
+=========================================================================================================
+
+
+Top Model:                top                                                             
+Device:                   ph1_90                                                          
+Timing Constraint File:                                                                   
+STA Level:                Detail                                                          
+Speed Grade:              2                                                               
+
+=========================================================================================================
+Timing constraint:        clock: DeriveClock                                              
+Clock = DeriveClock, period 20ns, rising at 0ns, falling at 10ns
+
+1332 endpoints analyzed totally, and 19642360 paths analyzed
+0 errors detected : 0 setup errors (TNS = 0.000), 0 hold errors (TNS = 0.000)
+Minimum period is 5.654ns
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4 (12 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     7.173 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_22.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.602ns  (logic 0.916ns, net 1.686ns, 35% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_22.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_22.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ic (ad_top/u_AD7266/count_SCK[3]) net  (fanout = 8)       0.889 r    11.056      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.273 r    11.329
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.495 r    11.824                    
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.ofa               cell (LUT2)             0.179 r    12.003
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n105) net  (fanout = 1)       0.302 r    12.305      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4                    path2regb (LUT6)        0.297      12.602
+ Arrival time                                                                       12.602                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.173ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.513 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.262ns  (logic 0.957ns, net 1.305ns, 42% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqb                            clk2q                   0.173 r    10.173
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ib (ad_top/u_AD7266/count_SCK[4]) net  (fanout = 7)       0.508 r    10.681      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.308 r    10.989
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.495 r    11.484                    
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.ofa               cell (LUT2)             0.179 r    11.663
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n105) net  (fanout = 1)       0.302 r    11.965      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4                    path2regb (LUT6)        0.297      12.262
+ Arrival time                                                                       12.262                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.513ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.519 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.256ns  (logic 0.950ns, net 1.306ns, 42% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ia (ad_top/u_AD7266/count_SCK[5]) net  (fanout = 7)       0.509 r    10.676      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.307 r    10.983
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.id (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.495 r    11.478                    
+ ad_top/u_AD7266/A1B1_Result_b2_n22_syn_11.ofa               cell (LUT2)             0.179 r    11.657
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n105) net  (fanout = 1)       0.302 r    11.959      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4                    path2regb (LUT6)        0.297      12.256
+ Arrival time                                                                       12.256                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n20_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.519ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9 (12 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     7.191 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_22.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.584ns  (logic 0.939ns, net 1.645ns, 36% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_22.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_22.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ic (ad_top/u_AD7266/count_SCK[3]) net  (fanout = 8)       0.889 r    11.056      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.273 r    11.329
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.389 r    11.718                    
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.ofa                cell (LUT2)             0.202 r    11.920
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (ad_top/u_AD7266/A1B1_Result_b2_n106) net  (fanout = 1)       0.367 r    12.287      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9                    path2regb (LUT6)        0.297      12.584
+ Arrival time                                                                       12.584                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.191ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.531 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.244ns  (logic 0.980ns, net 1.264ns, 43% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqb                            clk2q                   0.173 r    10.173
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ib (ad_top/u_AD7266/count_SCK[4]) net  (fanout = 7)       0.508 r    10.681      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.308 r    10.989
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.389 r    11.378                    
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.ofa                cell (LUT2)             0.202 r    11.580
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (ad_top/u_AD7266/A1B1_Result_b2_n106) net  (fanout = 1)       0.367 r    11.947      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9                    path2regb (LUT6)        0.297      12.244
+ Arrival time                                                                       12.244                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.531ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.537 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.238ns  (logic 0.973ns, net 1.265ns, 43% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ia (ad_top/u_AD7266/count_SCK[5]) net  (fanout = 7)       0.509 r    10.676      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_8.ofa                cell (LUT4)             0.307 r    10.983
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.imf (ad_top/u_AD7266/A1B1_Result_b2_n22_syn_9) net  (fanout = 4)       0.389 r    11.372                    
+ ad_top/u_AD7266/A1B1_Result_b2_n25_syn_5.ofa                cell (LUT2)             0.202 r    11.574
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.ia (ad_top/u_AD7266/A1B1_Result_b2_n106) net  (fanout = 1)       0.367 r    11.941      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9                    path2regb (LUT6)        0.297      12.238
+ Arrival time                                                                       12.238                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n21_syn_9.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.537ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4 (12 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (setup check):     7.273 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.502ns  (logic 1.085ns, net 1.417ns, 43% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqb                            clk2q                   0.173 r    10.173
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ib (ad_top/u_AD7266/count_SCK[4]) net  (fanout = 7)       0.568 r    10.741      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ofa                cell (LUT4)             0.308 r    11.049
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia (ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5) net  (fanout = 5)       0.322 r    11.371                    
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ofa                cell (LUT2)             0.307 r    11.678
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n89) net  (fanout = 2)       0.527 r    12.205      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4                    path2regb (LUT6)        0.297      12.502
+ Arrival time                                                                       12.502                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.273ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.578 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_22.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.197ns  (logic 1.044ns, net 1.153ns, 47% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_22.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_22.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ic (ad_top/u_AD7266/count_SCK[3]) net  (fanout = 8)       0.304 r    10.471      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ofa                cell (LUT4)             0.273 r    10.744
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia (ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5) net  (fanout = 5)       0.322 r    11.066                    
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ofa                cell (LUT2)             0.307 r    11.373
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n89) net  (fanout = 2)       0.527 r    11.900      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4                    path2regb (LUT6)        0.297      12.197
+ Arrival time                                                                       12.197                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.578ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (setup check):     7.626 ns                                                        
+ Start Point:             ad_top/u_AD7266/reg20_syn_25.clk (falling edge triggered by clock DeriveClock)
+ End Point:               ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Slow                                                            
+ Data Path Delay:         2.149ns  (logic 1.078ns, net 1.071ns, 50% logic)                
+ Logic Levels:            3 ( LUT6=1 LUT2=1 LUT4=1 )                                      
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ ad_top/u_AD7266/reg20_syn_25.clk                            clock                   0.000       0.000
+ launch clock edge                                                                  10.000      10.000
+ ad_top/u_AD7266/reg20_syn_25.oqa                            clk2q                   0.167 r    10.167
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ia (ad_top/u_AD7266/count_SCK[5]) net  (fanout = 7)       0.222 r    10.389      ../../ad/ad7266.v(33)
+ ad_top/u_AD7266/A1B1_Result_b2_n26_syn_5.ofa                cell (LUT4)             0.307 r    10.696
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ia (ad_top/u_AD7266/A1B1_Result_b2_n21_syn_5) net  (fanout = 5)       0.322 r    11.018                    
+ ad_top/u_AD7266/A1B1_Result_b2_n19_syn_7.ofa                cell (LUT2)             0.307 r    11.325
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.ia (ad_top/u_AD7266/A1B1_Result_b2_n89) net  (fanout = 2)       0.527 r    11.852      ../../ad/ad7266.v(39)
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4                    path2regb (LUT6)        0.297      12.149
+ Arrival time                                                                       12.149                  (3 lvl)       
+
+ ad_top/u_AD7266/A1B1_Result_b2_n18_syn_4.clk                                        0.000       0.000
+ capture clock edge                                                                 20.000      20.000
+ cell setup                                                                         -0.065      19.935
+ clock uncertainty                                                                  -0.160      19.775
+ clock recovergence pessimism                                                        0.000      19.775
+ Required time                                                                      19.775            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               7.626ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Hold checks:
+---------------------------------------------------------------------------------------------------------
+Paths for end point lsm_top/fir_dut/mult4_syn_48/POU_p_reg (4455 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult4_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[53] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult4_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult4_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45] (M_reg_syn_1036[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult4_syn_48/_tadd.sum[53]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[53] (POU_p_reg_syn_109[53]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult4_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[52] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult4_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult4_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45] (M_reg_syn_1036[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult4_syn_48/_tadd.sum[52]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[52] (POU_p_reg_syn_109[52]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult4_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[51] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult4_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult4_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult4_syn_48/_tadd.x1_special[45] (M_reg_syn_1036[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult4_syn_48/_tadd.sum[51]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.d[51] (POU_p_reg_syn_109[51]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult4_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point lsm_top/fir_dut/mult2_syn_48/POU_p_reg (4455 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult2_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[53] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult2_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult2_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45] (M_reg_syn_946[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult2_syn_48/_tadd.sum[53]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[53] (POU_p_reg_syn_55[53]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult2_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[52] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult2_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult2_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45] (M_reg_syn_946[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult2_syn_48/_tadd.sum[52]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[52] (POU_p_reg_syn_55[52]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult2_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[51] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult2_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult2_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult2_syn_48/_tadd.x1_special[45] (M_reg_syn_946[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult2_syn_48/_tadd.sum[51]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.d[51] (POU_p_reg_syn_55[51]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult2_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+Paths for end point lsm_top/fir_dut/mult0_syn_48/POU_p_reg (4455 paths)
+---------------------------------------------------------------------------------------------------------
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult0_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[53] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult0_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult0_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45] (M_reg_syn_856[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult0_syn_48/_tadd.sum[53]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[53] (POU_p_reg_syn_1[53]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult0_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[52] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult0_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult0_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45] (M_reg_syn_856[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult0_syn_48/_tadd.sum[52]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[52] (POU_p_reg_syn_1[52]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+ Slack (hold check):      0.141 ns                                                        
+ Start Point:             lsm_top/fir_dut/mult0_syn_48/M_reg.clk (rising edge triggered by clock DeriveClock)
+ End Point:               lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[51] (rising edge triggered by clock DeriveClock)
+ Clock group:             DeriveClock                                                     
+ Process:                 Fast                                                            
+ Data Path Delay:         0.142ns  (logic 0.142ns, net 0.000ns, 100% logic)               
+ Logic Levels:            2 ( DSPREG=1 DSPTADD=1 )                                        
+
+ Point                                                       Type                     Incr        Path      Info          
+---------------------------------------------------------------------------------------------------------
+ lsm_top/fir_dut/mult0_syn_48/M_reg.clk                      clock                   0.000       0.000
+ launch clock edge                                                                   0.000       0.000
+ lsm_top/fir_dut/mult0_syn_48/M_reg.q[44]                    clk2q                   0.000 f     0.000
+ lsm_top/fir_dut/mult0_syn_48/_tadd.x1_special[45] (M_reg_syn_856[44]) net  (fanout = 10)      0.000 f     0.000                    
+ lsm_top/fir_dut/mult0_syn_48/_tadd.sum[51]                  cell (DSPTADD)          0.142 r     0.142
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.d[51] (POU_p_reg_syn_1[51]) net  (fanout = 1)       0.000 f     0.142                    
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg                      path2reg (DSPREG)       0.000       0.142
+ Arrival time                                                                        0.142                  (2 lvl)       
+
+ lsm_top/fir_dut/mult0_syn_48/POU_p_reg.clk                                          0.000       0.000
+ capture clock edge                                                                  0.000       0.000
+ cell hold                                                                           0.001       0.001
+ clock uncertainty                                                                   0.000       0.001
+ clock recovergence pessimism                                                        0.000       0.001
+ Required time                                                                       0.001            
+---------------------------------------------------------------------------------------------------------
+ Slack                                                                               0.141ns          
+
+---------------------------------------------------------------------------------------------------------
+
+
+=========================================================================================================
+Timing summary:                                                                           
+---------------------------------------------------------------------------------------------------------
+Constraint path number: 19642360 (STA coverage = 85.40%)
+Timing violations: 0 setup errors, and 0 hold errors.
+Minimal setup slack: 7.173, minimal hold slack: 0.141
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  DeriveClock (50.0MHz)                          5.654ns     176.866MHz        0.000ns       529        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+
+
+Warning: No clock constraint on 15 clock net(s): 
+	SCK_dup_3
+	SCK_syn_5
+	ad_top/u_AD7266/spi_clk
+	ad_top/u_AD7266/spi_clk_syn_3
+	ad_top/u_AD7266/sys_clk
+	clkSorce_dup_1
+	lsm_top/coef_update_dut/clk_i
+	lsm_top/coef_update_dut/clk_i_syn_3
+	lsm_top/div40/clk
+	lsm_top/div40/clk_syn_1
+	mypll/clk0_buf
+	uart_top/UART/clk
+	uart_top/UART/clk_syn_1
+	uart_top/clkI160
+	uart_top/clkI160_syn_3
+
+---------------------------------------------------------------------------------------------------------

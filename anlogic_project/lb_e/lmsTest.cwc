@@ -1,0 +1,462 @@
+<chipwatcher project_name="fpga_prj" bit_file="fpga_prj_Runs/phy_1/fpga_prj.bit" bid_file="fpga_prj_Runs/phy_1/fpga_prj_inst.bid" chip_name="PH1A90SBG484">
+<!-- HMAC is: 508e43694f8a419a0b9ec1246898575df62380d1b55fb933f3de7735a84471eb -->
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="clk1" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="128"/>
+		<signal_vec>
+			<data_nets>
+				<net name="lsm_top/coef_update_dut/coef1[0]"/>
+				<net name="lsm_top/coef_update_dut/coef1[10]"/>
+				<net name="lsm_top/coef_update_dut/coef1[11]"/>
+				<net name="lsm_top/coef_update_dut/coef1[12]"/>
+				<net name="lsm_top/coef_update_dut/coef1[13]"/>
+				<net name="lsm_top/coef_update_dut/coef1[14]"/>
+				<net name="lsm_top/coef_update_dut/coef1[15]"/>
+				<net name="lsm_top/coef_update_dut/coef1[1]"/>
+				<net name="lsm_top/coef_update_dut/coef1[2]"/>
+				<net name="lsm_top/coef_update_dut/coef1[3]"/>
+				<net name="lsm_top/coef_update_dut/coef1[4]"/>
+				<net name="lsm_top/coef_update_dut/coef1[5]"/>
+				<net name="lsm_top/coef_update_dut/coef1[6]"/>
+				<net name="lsm_top/coef_update_dut/coef1[7]"/>
+				<net name="lsm_top/coef_update_dut/coef1[8]"/>
+				<net name="lsm_top/coef_update_dut/coef1[9]"/>
+				<net name="lsm_top/coef_update_dut/coef2[0]"/>
+				<net name="lsm_top/coef_update_dut/coef2[10]"/>
+				<net name="lsm_top/coef_update_dut/coef2[11]"/>
+				<net name="lsm_top/coef_update_dut/coef2[12]"/>
+				<net name="lsm_top/coef_update_dut/coef2[13]"/>
+				<net name="lsm_top/coef_update_dut/coef2[14]"/>
+				<net name="lsm_top/coef_update_dut/coef2[15]"/>
+				<net name="lsm_top/coef_update_dut/coef2[1]"/>
+				<net name="lsm_top/coef_update_dut/coef2[2]"/>
+				<net name="lsm_top/coef_update_dut/coef2[3]"/>
+				<net name="lsm_top/coef_update_dut/coef2[4]"/>
+				<net name="lsm_top/coef_update_dut/coef2[5]"/>
+				<net name="lsm_top/coef_update_dut/coef2[6]"/>
+				<net name="lsm_top/coef_update_dut/coef2[7]"/>
+				<net name="lsm_top/coef_update_dut/coef2[8]"/>
+				<net name="lsm_top/coef_update_dut/coef2[9]"/>
+				<net name="lsm_top/coef_update_dut/coef3[0]"/>
+				<net name="lsm_top/coef_update_dut/coef3[10]"/>
+				<net name="lsm_top/coef_update_dut/coef3[11]"/>
+				<net name="lsm_top/coef_update_dut/coef3[12]"/>
+				<net name="lsm_top/coef_update_dut/coef3[13]"/>
+				<net name="lsm_top/coef_update_dut/coef3[14]"/>
+				<net name="lsm_top/coef_update_dut/coef3[15]"/>
+				<net name="lsm_top/coef_update_dut/coef3[1]"/>
+				<net name="lsm_top/coef_update_dut/coef3[2]"/>
+				<net name="lsm_top/coef_update_dut/coef3[3]"/>
+				<net name="lsm_top/coef_update_dut/coef3[4]"/>
+				<net name="lsm_top/coef_update_dut/coef3[5]"/>
+				<net name="lsm_top/coef_update_dut/coef3[6]"/>
+				<net name="lsm_top/coef_update_dut/coef3[7]"/>
+				<net name="lsm_top/coef_update_dut/coef3[8]"/>
+				<net name="lsm_top/coef_update_dut/coef3[9]"/>
+				<net name="lsm_top/coef_update_dut/coef4[0]"/>
+				<net name="lsm_top/coef_update_dut/coef4[10]"/>
+				<net name="lsm_top/coef_update_dut/coef4[11]"/>
+				<net name="lsm_top/coef_update_dut/coef4[12]"/>
+				<net name="lsm_top/coef_update_dut/coef4[13]"/>
+				<net name="lsm_top/coef_update_dut/coef4[14]"/>
+				<net name="lsm_top/coef_update_dut/coef4[15]"/>
+				<net name="lsm_top/coef_update_dut/coef4[1]"/>
+				<net name="lsm_top/coef_update_dut/coef4[2]"/>
+				<net name="lsm_top/coef_update_dut/coef4[3]"/>
+				<net name="lsm_top/coef_update_dut/coef4[4]"/>
+				<net name="lsm_top/coef_update_dut/coef4[5]"/>
+				<net name="lsm_top/coef_update_dut/coef4[6]"/>
+				<net name="lsm_top/coef_update_dut/coef4[7]"/>
+				<net name="lsm_top/coef_update_dut/coef4[8]"/>
+				<net name="lsm_top/coef_update_dut/coef4[9]"/>
+				<net name="lsm_top/coef_update_dut/coef5[0]"/>
+				<net name="lsm_top/coef_update_dut/coef5[10]"/>
+				<net name="lsm_top/coef_update_dut/coef5[11]"/>
+				<net name="lsm_top/coef_update_dut/coef5[12]"/>
+				<net name="lsm_top/coef_update_dut/coef5[13]"/>
+				<net name="lsm_top/coef_update_dut/coef5[14]"/>
+				<net name="lsm_top/coef_update_dut/coef5[15]"/>
+				<net name="lsm_top/coef_update_dut/coef5[1]"/>
+				<net name="lsm_top/coef_update_dut/coef5[2]"/>
+				<net name="lsm_top/coef_update_dut/coef5[3]"/>
+				<net name="lsm_top/coef_update_dut/coef5[4]"/>
+				<net name="lsm_top/coef_update_dut/coef5[5]"/>
+				<net name="lsm_top/coef_update_dut/coef5[6]"/>
+				<net name="lsm_top/coef_update_dut/coef5[7]"/>
+				<net name="lsm_top/coef_update_dut/coef5[8]"/>
+				<net name="lsm_top/coef_update_dut/coef5[9]"/>
+				<net name="lsm_top/coef_update_dut/coef6[0]"/>
+				<net name="lsm_top/coef_update_dut/coef6[10]"/>
+				<net name="lsm_top/coef_update_dut/coef6[11]"/>
+				<net name="lsm_top/coef_update_dut/coef6[12]"/>
+				<net name="lsm_top/coef_update_dut/coef6[13]"/>
+				<net name="lsm_top/coef_update_dut/coef6[14]"/>
+				<net name="lsm_top/coef_update_dut/coef6[15]"/>
+				<net name="lsm_top/coef_update_dut/coef6[1]"/>
+				<net name="lsm_top/coef_update_dut/coef6[2]"/>
+				<net name="lsm_top/coef_update_dut/coef6[3]"/>
+				<net name="lsm_top/coef_update_dut/coef6[4]"/>
+				<net name="lsm_top/coef_update_dut/coef6[5]"/>
+				<net name="lsm_top/coef_update_dut/coef6[6]"/>
+				<net name="lsm_top/coef_update_dut/coef6[7]"/>
+				<net name="lsm_top/coef_update_dut/coef6[8]"/>
+				<net name="lsm_top/coef_update_dut/coef6[9]"/>
+				<net name="lsm_top/coef_update_dut/coef7[0]"/>
+				<net name="lsm_top/coef_update_dut/coef7[10]"/>
+				<net name="lsm_top/coef_update_dut/coef7[11]"/>
+				<net name="lsm_top/coef_update_dut/coef7[12]"/>
+				<net name="lsm_top/coef_update_dut/coef7[13]"/>
+				<net name="lsm_top/coef_update_dut/coef7[14]"/>
+				<net name="lsm_top/coef_update_dut/coef7[15]"/>
+				<net name="lsm_top/coef_update_dut/coef7[1]"/>
+				<net name="lsm_top/coef_update_dut/coef7[2]"/>
+				<net name="lsm_top/coef_update_dut/coef7[3]"/>
+				<net name="lsm_top/coef_update_dut/coef7[4]"/>
+				<net name="lsm_top/coef_update_dut/coef7[5]"/>
+				<net name="lsm_top/coef_update_dut/coef7[6]"/>
+				<net name="lsm_top/coef_update_dut/coef7[7]"/>
+				<net name="lsm_top/coef_update_dut/coef7[8]"/>
+				<net name="lsm_top/coef_update_dut/coef7[9]"/>
+				<net name="lsm_top/coef_update_dut/coef8[0]"/>
+				<net name="lsm_top/coef_update_dut/coef8[10]"/>
+				<net name="lsm_top/coef_update_dut/coef8[11]"/>
+				<net name="lsm_top/coef_update_dut/coef8[12]"/>
+				<net name="lsm_top/coef_update_dut/coef8[13]"/>
+				<net name="lsm_top/coef_update_dut/coef8[14]"/>
+				<net name="lsm_top/coef_update_dut/coef8[15]"/>
+				<net name="lsm_top/coef_update_dut/coef8[1]"/>
+				<net name="lsm_top/coef_update_dut/coef8[2]"/>
+				<net name="lsm_top/coef_update_dut/coef8[3]"/>
+				<net name="lsm_top/coef_update_dut/coef8[4]"/>
+				<net name="lsm_top/coef_update_dut/coef8[5]"/>
+				<net name="lsm_top/coef_update_dut/coef8[6]"/>
+				<net name="lsm_top/coef_update_dut/coef8[7]"/>
+				<net name="lsm_top/coef_update_dut/coef8[8]"/>
+				<net name="lsm_top/coef_update_dut/coef8[9]"/>
+				<net name="lsm_top/coef_update_dut/coef9[0]"/>
+				<net name="lsm_top/coef_update_dut/coef9[10]"/>
+				<net name="lsm_top/coef_update_dut/coef9[11]"/>
+				<net name="lsm_top/coef_update_dut/coef9[12]"/>
+				<net name="lsm_top/coef_update_dut/coef9[13]"/>
+				<net name="lsm_top/coef_update_dut/coef9[14]"/>
+				<net name="lsm_top/coef_update_dut/coef9[15]"/>
+				<net name="lsm_top/coef_update_dut/coef9[1]"/>
+				<net name="lsm_top/coef_update_dut/coef9[2]"/>
+				<net name="lsm_top/coef_update_dut/coef9[3]"/>
+				<net name="lsm_top/coef_update_dut/coef9[4]"/>
+				<net name="lsm_top/coef_update_dut/coef9[5]"/>
+				<net name="lsm_top/coef_update_dut/coef9[6]"/>
+				<net name="lsm_top/coef_update_dut/coef9[7]"/>
+				<net name="lsm_top/coef_update_dut/coef9[8]"/>
+				<net name="lsm_top/coef_update_dut/coef9[9]"/>
+				<net name="lsm_top/data_in[0]"/>
+				<net name="lsm_top/data_in[10]"/>
+				<net name="lsm_top/data_in[11]"/>
+				<net name="lsm_top/data_in[12]"/>
+				<net name="lsm_top/data_in[13]"/>
+				<net name="lsm_top/data_in[14]"/>
+				<net name="lsm_top/data_in[15]"/>
+				<net name="lsm_top/data_in[1]"/>
+				<net name="lsm_top/data_in[2]"/>
+				<net name="lsm_top/data_in[3]"/>
+				<net name="lsm_top/data_in[4]"/>
+				<net name="lsm_top/data_in[5]"/>
+				<net name="lsm_top/data_in[6]"/>
+				<net name="lsm_top/data_in[7]"/>
+				<net name="lsm_top/data_in[8]"/>
+				<net name="lsm_top/data_in[9]"/>
+				<net name="lsm_top/data_o[0]"/>
+				<net name="lsm_top/data_o[10]"/>
+				<net name="lsm_top/data_o[11]"/>
+				<net name="lsm_top/data_o[12]"/>
+				<net name="lsm_top/data_o[13]"/>
+				<net name="lsm_top/data_o[14]"/>
+				<net name="lsm_top/data_o[15]"/>
+				<net name="lsm_top/data_o[1]"/>
+				<net name="lsm_top/data_o[2]"/>
+				<net name="lsm_top/data_o[3]"/>
+				<net name="lsm_top/data_o[4]"/>
+				<net name="lsm_top/data_o[5]"/>
+				<net name="lsm_top/data_o[6]"/>
+				<net name="lsm_top/data_o[7]"/>
+				<net name="lsm_top/data_o[8]"/>
+				<net name="lsm_top/data_o[9]"/>
+				<net name="lsm_top/data_ref[0]"/>
+				<net name="lsm_top/data_ref[10]"/>
+				<net name="lsm_top/data_ref[11]"/>
+				<net name="lsm_top/data_ref[12]"/>
+				<net name="lsm_top/data_ref[13]"/>
+				<net name="lsm_top/data_ref[14]"/>
+				<net name="lsm_top/data_ref[15]"/>
+				<net name="lsm_top/data_ref[1]"/>
+				<net name="lsm_top/data_ref[2]"/>
+				<net name="lsm_top/data_ref[3]"/>
+				<net name="lsm_top/data_ref[4]"/>
+				<net name="lsm_top/data_ref[5]"/>
+				<net name="lsm_top/data_ref[6]"/>
+				<net name="lsm_top/data_ref[7]"/>
+				<net name="lsm_top/data_ref[8]"/>
+				<net name="lsm_top/data_ref[9]"/>
+				<net name="lsm_top/error_o[0]"/>
+				<net name="lsm_top/error_o[10]"/>
+				<net name="lsm_top/error_o[11]"/>
+				<net name="lsm_top/error_o[12]"/>
+				<net name="lsm_top/error_o[13]"/>
+				<net name="lsm_top/error_o[14]"/>
+				<net name="lsm_top/error_o[15]"/>
+				<net name="lsm_top/error_o[1]"/>
+				<net name="lsm_top/error_o[2]"/>
+				<net name="lsm_top/error_o[3]"/>
+				<net name="lsm_top/error_o[4]"/>
+				<net name="lsm_top/error_o[5]"/>
+				<net name="lsm_top/error_o[6]"/>
+				<net name="lsm_top/error_o[7]"/>
+				<net name="lsm_top/error_o[8]"/>
+				<net name="lsm_top/error_o[9]"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="lsm_top/coef_update_dut/coef1" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef1[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef1[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef2" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef2[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef2[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef3" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef3[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef3[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef4" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef4[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef4[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef5" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef5[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef5[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef6" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef6[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef6[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef7" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef7[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef7[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef8" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef8[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef8[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/coef_update_dut/coef9" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/coef_update_dut/coef9[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/coef_update_dut/coef9[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/data_in" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/data_in[15]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_in[14]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_in[13]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_in[12]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_in[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_in[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/data_o" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/data_o[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_o[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/data_ref" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/data_ref[15]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_ref[14]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_ref[13]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_ref[12]" type="comb" trigger="enable"/>
+					<net name="lsm_top/data_ref[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/data_ref[0]" type="reg" trigger="enable"/>
+				</bus>
+				<bus name="lsm_top/error_o" radix="bin" state="collapse" op="dont_care" type="reg">
+					<net name="lsm_top/error_o[15]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[14]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[13]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[12]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[11]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[10]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[9]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[8]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[7]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[6]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[5]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[4]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[3]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[2]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[1]" type="reg" trigger="enable"/>
+					<net name="lsm_top/error_o[0]" type="reg" trigger="enable"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				lsm_top/coef_update_dut/coef1[0] == low && lsm_top/coef_update_dut/coef1[10] == low && lsm_top/coef_update_dut/coef1[11] == low && lsm_top/coef_update_dut/coef1[12] == low && lsm_top/coef_update_dut/coef1[13] == low && lsm_top/coef_update_dut/coef1[14] == low && lsm_top/coef_update_dut/coef1[15] == low && lsm_top/coef_update_dut/coef1[1] == low && lsm_top/coef_update_dut/coef1[2] == low && lsm_top/coef_update_dut/coef1[3] == low && lsm_top/coef_update_dut/coef1[4] == low && lsm_top/coef_update_dut/coef1[5] == low && lsm_top/coef_update_dut/coef1[6] == low && lsm_top/coef_update_dut/coef1[7] == low && lsm_top/coef_update_dut/coef1[8] == low && lsm_top/coef_update_dut/coef1[9] == low && lsm_top/coef_update_dut/coef2[0] == low && lsm_top/coef_update_dut/coef2[10] == low && lsm_top/coef_update_dut/coef2[11] == low && lsm_top/coef_update_dut/coef2[12] == low && lsm_top/coef_update_dut/coef2[13] == low && lsm_top/coef_update_dut/coef2[14] == low && lsm_top/coef_update_dut/coef2[15] == low && lsm_top/coef_update_dut/coef2[1] == low && lsm_top/coef_update_dut/coef2[2] == low && lsm_top/coef_update_dut/coef2[3] == low && lsm_top/coef_update_dut/coef2[4] == low && lsm_top/coef_update_dut/coef2[5] == low && lsm_top/coef_update_dut/coef2[6] == low && lsm_top/coef_update_dut/coef2[7] == low && lsm_top/coef_update_dut/coef2[8] == low && lsm_top/coef_update_dut/coef2[9] == low && lsm_top/coef_update_dut/coef3[0] == low && lsm_top/coef_update_dut/coef3[10] == low && lsm_top/coef_update_dut/coef3[11] == low && lsm_top/coef_update_dut/coef3[12] == low && lsm_top/coef_update_dut/coef3[13] == low && lsm_top/coef_update_dut/coef3[14] == low && lsm_top/coef_update_dut/coef3[15] == low && lsm_top/coef_update_dut/coef3[1] == low && lsm_top/coef_update_dut/coef3[2] == low && lsm_top/coef_update_dut/coef3[3] == low && lsm_top/coef_update_dut/coef3[4] == low && lsm_top/coef_update_dut/coef3[5] == low && lsm_top/coef_update_dut/coef3[6] == low && lsm_top/coef_update_dut/coef3[7] == low && lsm_top/coef_update_dut/coef3[8] == low && lsm_top/coef_update_dut/coef3[9] == low && lsm_top/coef_update_dut/coef4[0] == low && lsm_top/coef_update_dut/coef4[10] == low && lsm_top/coef_update_dut/coef4[11] == low && lsm_top/coef_update_dut/coef4[12] == low && lsm_top/coef_update_dut/coef4[13] == low && lsm_top/coef_update_dut/coef4[14] == low && lsm_top/coef_update_dut/coef4[15] == low && lsm_top/coef_update_dut/coef4[1] == low && lsm_top/coef_update_dut/coef4[2] == low && lsm_top/coef_update_dut/coef4[3] == low && lsm_top/coef_update_dut/coef4[4] == low && lsm_top/coef_update_dut/coef4[5] == low && lsm_top/coef_update_dut/coef4[6] == low && lsm_top/coef_update_dut/coef4[7] == low && lsm_top/coef_update_dut/coef4[8] == low && lsm_top/coef_update_dut/coef4[9] == low && lsm_top/coef_update_dut/coef5[0] == low && lsm_top/coef_update_dut/coef5[10] == low && lsm_top/coef_update_dut/coef5[11] == low && lsm_top/coef_update_dut/coef5[12] == low && lsm_top/coef_update_dut/coef5[13] == low && lsm_top/coef_update_dut/coef5[14] == low && lsm_top/coef_update_dut/coef5[15] == low && lsm_top/coef_update_dut/coef5[1] == low && lsm_top/coef_update_dut/coef5[2] == low && lsm_top/coef_update_dut/coef5[3] == low && lsm_top/coef_update_dut/coef5[4] == low && lsm_top/coef_update_dut/coef5[5] == low && lsm_top/coef_update_dut/coef5[6] == low && lsm_top/coef_update_dut/coef5[7] == low && lsm_top/coef_update_dut/coef5[8] == low && lsm_top/coef_update_dut/coef5[9] == low && lsm_top/coef_update_dut/coef6[0] == low && lsm_top/coef_update_dut/coef6[10] == low && lsm_top/coef_update_dut/coef6[11] == low && lsm_top/coef_update_dut/coef6[12] == low && lsm_top/coef_update_dut/coef6[13] == low && lsm_top/coef_update_dut/coef6[14] == low && lsm_top/coef_update_dut/coef6[15] == low && lsm_top/coef_update_dut/coef6[1] == low && lsm_top/coef_update_dut/coef6[2] == low && lsm_top/coef_update_dut/coef6[3] == low && lsm_top/coef_update_dut/coef6[4] == low && lsm_top/coef_update_dut/coef6[5] == low && lsm_top/coef_update_dut/coef6[6] == low && lsm_top/coef_update_dut/coef6[7] == low && lsm_top/coef_update_dut/coef6[8] == low && lsm_top/coef_update_dut/coef6[9] == low && lsm_top/coef_update_dut/coef7[0] == low && lsm_top/coef_update_dut/coef7[10] == low && lsm_top/coef_update_dut/coef7[11] == low && lsm_top/coef_update_dut/coef7[12] == low && lsm_top/coef_update_dut/coef7[13] == low && lsm_top/coef_update_dut/coef7[14] == low && lsm_top/coef_update_dut/coef7[15] == low && lsm_top/coef_update_dut/coef7[1] == low && lsm_top/coef_update_dut/coef7[2] == low && lsm_top/coef_update_dut/coef7[3] == low && lsm_top/coef_update_dut/coef7[4] == low && lsm_top/coef_update_dut/coef7[5] == low && lsm_top/coef_update_dut/coef7[6] == low && lsm_top/coef_update_dut/coef7[7] == low && lsm_top/coef_update_dut/coef7[8] == low && lsm_top/coef_update_dut/coef7[9] == low && lsm_top/coef_update_dut/coef8[0] == low && lsm_top/coef_update_dut/coef8[10] == low && lsm_top/coef_update_dut/coef8[11] == low && lsm_top/coef_update_dut/coef8[12] == low && lsm_top/coef_update_dut/coef8[13] == low && lsm_top/coef_update_dut/coef8[14] == low && lsm_top/coef_update_dut/coef8[15] == low && lsm_top/coef_update_dut/coef8[1] == low && lsm_top/coef_update_dut/coef8[2] == low && lsm_top/coef_update_dut/coef8[3] == low && lsm_top/coef_update_dut/coef8[4] == low && lsm_top/coef_update_dut/coef8[5] == low && lsm_top/coef_update_dut/coef8[6] == low && lsm_top/coef_update_dut/coef8[7] == low && lsm_top/coef_update_dut/coef8[8] == low && lsm_top/coef_update_dut/coef8[9] == low && lsm_top/coef_update_dut/coef9[0] == low && lsm_top/coef_update_dut/coef9[10] == low && lsm_top/coef_update_dut/coef9[11] == low && lsm_top/coef_update_dut/coef9[12] == low && lsm_top/coef_update_dut/coef9[13] == low && lsm_top/coef_update_dut/coef9[14] == low && lsm_top/coef_update_dut/coef9[15] == low && lsm_top/coef_update_dut/coef9[1] == low && lsm_top/coef_update_dut/coef9[2] == low && lsm_top/coef_update_dut/coef9[3] == low && lsm_top/coef_update_dut/coef9[4] == low && lsm_top/coef_update_dut/coef9[5] == low && lsm_top/coef_update_dut/coef9[6] == low && lsm_top/coef_update_dut/coef9[7] == low && lsm_top/coef_update_dut/coef9[8] == low && lsm_top/coef_update_dut/coef9[9] == low && lsm_top/data_in[0] == low && lsm_top/data_in[10] == low && lsm_top/data_in[11] == low && lsm_top/data_in[12] == low && lsm_top/data_in[13] == low && lsm_top/data_in[14] == low && lsm_top/data_in[15] == low && lsm_top/data_in[1] == low && lsm_top/data_in[2] == low && lsm_top/data_in[3] == low && lsm_top/data_in[4] == low && lsm_top/data_in[5] == low && lsm_top/data_in[6] == low && lsm_top/data_in[7] == low && lsm_top/data_in[8] == low && lsm_top/data_in[9] == low && lsm_top/data_o[0] == low && lsm_top/data_o[10] == low && lsm_top/data_o[11] == low && lsm_top/data_o[12] == low && lsm_top/data_o[13] == low && lsm_top/data_o[14] == low && lsm_top/data_o[15] == low && lsm_top/data_o[1] == low && lsm_top/data_o[2] == low && lsm_top/data_o[3] == low && lsm_top/data_o[4] == low && lsm_top/data_o[5] == low && lsm_top/data_o[6] == low && lsm_top/data_o[7] == low && lsm_top/data_o[8] == low && lsm_top/data_o[9] == low && lsm_top/data_ref[0] == low && lsm_top/data_ref[10] == low && lsm_top/data_ref[11] == low && lsm_top/data_ref[12] == low && lsm_top/data_ref[13] == low && lsm_top/data_ref[14] == low && lsm_top/data_ref[15] == low && lsm_top/data_ref[1] == low && lsm_top/data_ref[2] == low && lsm_top/data_ref[3] == low && lsm_top/data_ref[4] == low && lsm_top/data_ref[5] == low && lsm_top/data_ref[6] == low && lsm_top/data_ref[7] == low && lsm_top/data_ref[8] == low && lsm_top/data_ref[9] == low && lsm_top/error_o[0] == low && lsm_top/error_o[10] == low && lsm_top/error_o[11] == low && lsm_top/error_o[12] == low && lsm_top/error_o[13] == low && lsm_top/error_o[14] == low && lsm_top/error_o[15] == low && lsm_top/error_o[1] == low && lsm_top/error_o[2] == low && lsm_top/error_o[3] == low && lsm_top/error_o[4] == low && lsm_top/error_o[5] == low && lsm_top/error_o[6] == low && lsm_top/error_o[7] == low && lsm_top/error_o[8] == low && lsm_top/error_o[9] == low
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

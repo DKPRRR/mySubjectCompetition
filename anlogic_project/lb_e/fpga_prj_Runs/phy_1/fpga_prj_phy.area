@@ -1,0 +1,98 @@
+standard
+***Report Model: top Device: PH1A90SBG484***
+
+Design Statistics
+#IO                        14
+  #input                    4
+  #output                  10
+  #inout                    0
+#lut6                     145   out of  64320    0.23%
+#reg                      607
+  #slice reg              607   out of 128640    0.47%
+  #pad reg                  0
+
+Utilization Statistics
+#slice                    608   out of  64320    0.95%
+  #used ram                 0
+    #dram                   0
+    #shifter                0
+  #used logic             608
+    #with luts            145
+    #with adder           370
+    #reg only              93
+#feedthrough               66
+#f7mux                      0   out of  32160    0.00%
+#f8mux                      0   out of  16080    0.00%
+#dsp                       19   out of    240    7.92%
+#eram                       0   out of    272    0.00%
+  #eram20k                  0
+  #fifo20k                  0
+#pad                       14   out of    260    5.38%
+#pll                        1   out of     12    8.33%
+#pcie                       0   out of      1    0.00%
+#serdes                     0   out of      2    0.00%
+#gclk                       7   out of     32   21.88%
+#lclk                       0   out of     32    0.00%
+#mlclk                      0   out of     16    0.00%
+#ioclk                      0   out of     24    0.00%
+
+Clock Resource Statistics
+Index     ClockNet                         Type            DriverType         Driver                               ClockFanout
+#1        lsm_top/coef_update_dut/clk_i    InferredGclk    lslice             lsm_top/div40/out_reg_syn_3.oqb      380
+#2        uart_top/UART/clk                InferredGclk    pll                mypll/pll_inst.clkc2                 41
+#3        ad_top/u_AD7266/spi_clk          InferredGclk    lslice             ad_top/u_AD7266/reg21_syn_23.oqb     29
+#4        lsm_top/div40/clk                InferredGclk    pll                mypll/pll_inst.clkc1                 22
+#5        SCK_dup_3                        InferredGclk    lslice             ad_top/u_AD7266/SCK_reg_syn_3.oqb    21
+#6        uart_top/clkI160                 InferredGclk    lslice             uart_top/div160/out_reg_syn_3.oqb    5
+#7        mypll/clk0_buf                   UserGclk        pll                mypll/pll_inst.clkc0                 2
+
+
+Detailed IO Report
+
+       Name         Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      adAIn           INPUT        B15        LVCMOS33          N/A          PULLUP      NONE    
+      adBIn           INPUT        A19        LVCMOS33          N/A          PULLUP      NONE    
+     clkSorce         INPUT        N18        LVCMOS33          N/A          PULLUP      NONE    
+    resetSorce        INPUT         K4        LVCMOS18          N/A          PULLUP      NONE    
+   AD_A2_A0[2]       OUTPUT        J16        LVCMOS33           8            NONE       NONE    
+   AD_A2_A0[1]       OUTPUT        J17        LVCMOS33           8            NONE       NONE    
+   AD_A2_A0[0]       OUTPUT        D19        LVCMOS33           8            NONE       NONE    
+        CS           OUTPUT        D20        LVCMOS33           8            NONE       NONE    
+     RD_DONE         OUTPUT         T6        LVCMOS18           8           PULLUP      NONE    
+       SCK           OUTPUT        B18        LVCMOS33           8            NONE       NONE    
+  Vdd_fmc_adj[2]     OUTPUT        H12        LVCMOS18           8            NONE       NONE    
+  Vdd_fmc_adj[1]     OUTPUT        G10        LVCMOS18           8            NONE       NONE    
+  Vdd_fmc_adj[0]     OUTPUT        G11        LVCMOS18           8            NONE       NONE    
+       txd           OUTPUT        R22        LVCMOS33           8            NONE       NONE    
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance            |Module      |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |f7mux   |f8mux   |pll     |serdes  |pcie    |ddr     |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                 |top         |145     |370     |607     |0       |19      |0       |0       |0       |0       |1       |0       |0       |0       |
+|  ad_top            |ad_top      |77      |0       |80      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_AD7266        |AD7266_Read |77      |0       |80      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  change            |change      |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  lsm_top           |lsm_top     |18      |349     |476     |0       |19      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    coef_update_dut |coef_update |9       |144     |272     |0       |10      |0       |0       |0       |0       |0       |0       |0       |0       |
+|    div40           |div         |8       |21      |22      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    error_calcu_dut |error_calcu |1       |45      |8       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    fir_dut         |fir         |0       |139     |174     |0       |9       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  mypll             |mypll       |0       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  uart_top          |uart_top    |48      |21      |51      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    UART            |UART        |36      |0       |22      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    div160          |div         |8       |21      |22      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       1869  
+    #2         2       205   
+    #3         3        23   
+    #4         4        34   
+    #5        5-10      76   
+    #6       11-50      10   
+    #7       51-100     1    
+  Average     1.48           
